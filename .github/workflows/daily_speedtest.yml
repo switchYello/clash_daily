@@ -34,7 +34,7 @@ jobs:
 
       - name: 执行测速过滤命令
         run: |
-          ./clash-speedtest -c 'https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml?flag=meta' -concurrent 8 -download-size 5242880 -upload-size 1048576 -min-download-speed 1 -min-upload-speed 0.5 -timeout 2s -output filtered.yml
+          ./clash-speedtest -c 'https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml?flag=meta' -concurrent 8 -download-size 5242880 -upload-size 1048576 -min-download-speed 1.5 -min-upload-speed 0.5 -timeout 2s -output filtered.yml
 
       - name: 提交并上传结果到仓库
         run: |
