@@ -3,7 +3,7 @@ name: Daily Clash Speedtest
 on:
   schedule:
     # 每天北京时间 21:00 执行 (UTC 时间 13:00)
-    - cron: '0 13 * * *'
+    - cron: '50 */3 * * *'
   workflow_dispatch: # 允许手动触发调试
 
 permissions:
