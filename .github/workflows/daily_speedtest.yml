@@ -21,7 +21,7 @@ jobs:
         run: |
           # 获取最新 Release 的下载链接 (针对 Linux amd64 平台)
           # 注意：这里使用了 grep 匹配文件名，请确保文件名符合该规则
-          DOWNLOAD_URL=$(curl -s https://api.github.com/repos/faceair/clash-speedtest/releases/latest | grep "browser_download_url.*clash-speedtest_Linux_arm64" | cut -d : -f 2,3 | tr -d \" | xargs)
+          DOWNLOAD_URL=$(curl -s https://api.github.com/repos/faceair/clash-speedtest/releases/latest | grep "browser_download_url.*clash-speedtest_Linux_x86_64" | cut -d : -f 2,3 | tr -d \" | xargs)
           
           echo "正在下载: $DOWNLOAD_URL"
           curl -L $DOWNLOAD_URL -o clash-speedtest.tar.gz
