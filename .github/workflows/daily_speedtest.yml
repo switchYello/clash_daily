@@ -1,0 +1,53 @@
+name: Daily Clash Speedtest
+
+on:
+  schedule:
+    # 每天北京时间 21:00 执行 (UTC 时间 13:00)
+    - cron: '0 13 * * *'
+  workflow_dispatch: # 允许手动触发调试
+
+permissions:
+  contents: write  # 赋予写入存储库内容的权限
+
+jobs:
+  run-speedtest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 下载并解压 clash-speedtest
+        run: |
+          # 获取最新 Release 的下载链接 (针对 Linux amd64 平台)
+          # 注意：这里使用了 grep 匹配文件名，请确保文件名符合该规则
+          DOWNLOAD_URL=$(curl -s https://api.github.com/repos/faceair/clash-speedtest/releases/latest | grep "browser_download_url.*clash-speedtest_Linux_arm64" | cut -d : -f 2,3 | tr -d \" | xargs)
+          
+          echo "正在下载: $DOWNLOAD_URL"
+          curl -L $DOWNLOAD_URL -o clash-speedtest.tar.gz
+          
+          # 解压文件
+          tar -zxvf clash-speedtest.tar.gz
+          
+          # 赋予执行权限
+          chmod +x clash-speedtest
+
+      - name: 执行测速过滤命令
+        run: |
+          ./clash-speedtest -c 'https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml?flag=meta' -download-size 5242880 -upload-size 1048576 -min-download-speed 1 -min-upload-speed 0.5 -timeout 3s -output filtered.yml
+
+      - name: 提交并上传结果到仓库
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # 检查文件是否有变化
+          if [ -f "filtered.yml" ]; then
+            git add filtered.yml
+            # 如果没有变化会报错，所以加个判断
+            git commit -m "Update filtered.yml - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+            git push
+          else
+            echo "错误：未找到生成的 filtered.yml 文件"
+            exit 1
+          fi
