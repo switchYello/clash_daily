@@ -320,21 +320,6 @@ proxies:
       sni: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com
       tls: false
       type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.03 MB/s"
-      password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-      port: 443
-      server: ad72fc1d-t70f40-tb016b-1m7l4.hk1.hyhuawei.com
-      skip-cert-verify: true
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.03 MB/s"
-      password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
-      port: 443
-      server: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
     - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.01 MB/s"
       password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
       port: 443
@@ -343,28 +328,12 @@ proxies:
       sni: 9c329770-t6ngg0-t6k5ga-1bonh.hk1.hyhuawei.com
       tls: false
       type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.01 MB/s"
-      password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-      port: 443
-      server: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
     - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.00 MB/s"
       password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
       port: 443
       server: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
       skip-cert-verify: true
       sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.00 MB/s"
-      password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com
       tls: false
       type: hysteria2
     - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 1.74 MB/s"
