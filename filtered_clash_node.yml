@@ -3,7 +3,7 @@ proxies:
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.33 MB/s"
+      name: '#342 US43'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 51774
       server: ashburn-1.nezhasu.cn
@@ -15,19 +15,19 @@ proxies:
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 6.77 MB/s"
+      name: '#100 US23'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 63480
-      server: phoenix-1.nezhasu.cn
+      port: 62191
+      server: phoenix-4.nezhasu.com
       skip-cert-verify: true
-      sni: phoenix-1.nezhasu.cn
+      sni: phoenix-4.nezhasu.com
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 6.38 MB/s"
+      name: '#339 US40'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 57290
       server: phoenix-2.nezhasu.cn
@@ -39,7 +39,31 @@ proxies:
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 6.26 MB/s"
+      name: '#338 US39'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 63480
+      server: phoenix-1.nezhasu.cn
+      skip-cert-verify: true
+      sni: phoenix-1.nezhasu.cn
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: '#341 US42'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 62863
+      server: phoenix-4.nezhasu.com
+      skip-cert-verify: true
+      sni: phoenix-4.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: '#340 US41'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 55318
       server: phoenix-3.nezhasu.com
@@ -51,7 +75,7 @@ proxies:
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 4.18 MB/s"
+      name: '#344 GB10'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 52006
       server: lundun2.nezhasu.com
@@ -63,7 +87,19 @@ proxies:
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 4.12 MB/s"
+      name: '#343 GB9'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 55423
+      server: lundun1.nezhasu.com
+      skip-cert-verify: true
+      sni: lundun1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: '#345 GB11'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 60062
       server: lundun3.nezhasu.com
@@ -75,7 +111,7 @@ proxies:
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 3.96 MB/s"
+      name: '#346 GB12'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 50910
       server: lundun4.nezhasu.com
@@ -87,7 +123,7 @@ proxies:
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 3.86 MB/s"
+      name: '#337 FR2'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 54929
       server: marseille-1.nezhasu.com
@@ -99,7 +135,7 @@ proxies:
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 3.83 MB/s"
+      name: '#089 FR1'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 65193
       server: marseille-1.nezhasu.com
@@ -108,19 +144,17 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 3.67 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 62191
-      server: phoenix-4.nezhasu.com
-      skip-cert-verify: true
-      sni: phoenix-4.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 3.62 MB/s"
+    - name: "\U0001F1EB\U0001F1F7 - FR - @freeOnlineVPN #1"
+      obfs: salamander
+      obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+      password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+      port: 35000
+      server: api.kermanshahi.org
+      skip-cert-verify: false
+      sni: api.kermanshahi.org
+      tls: false
+      type: hysteria2
+    - name: "\U0001F6A936@oneclickvpnkeys"
       obfs: salamander
       obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
       password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -130,25 +164,7 @@ proxies:
       sni: api.kermanshahi.org
       tls: false
       type: hysteria2
-    - name: "\U0001F1E8\U0001F1ED CH | ⬇️ 3.60 MB/s"
-      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
-      port: 443
-      server: 152.67.95.183
-      skip-cert-verify: true
-      sni: www.apple.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 3.51 MB/s"
-      obfs: salamander
-      obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-      password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-      port: 35000
-      server: 51.178.55.157
-      skip-cert-verify: true
-      sni: api.kermanshahi.org
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 3.42 MB/s"
+    - name: 'Join -> Telegram: @V2Gatee #4'
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
       password: yhqy5AHofQq
@@ -158,15 +174,7 @@ proxies:
       sni: www.bing.com
       tls: false
       type: hysteria2
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 3.24 MB/s"
-      network: tcp
-      password: BxceQaOe
-      port: 3194
-      server: 54.199.226.29
-      skip-cert-verify: true
-      sni: t.me%252Fripaojiedian
-      type: trojan
-    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 2.89 MB/s"
+    - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
       password: freehomesvpnchannel3
@@ -176,29 +184,7 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 2.87 MB/s"
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: 206.71.158.23
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 2.79 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 62863
-      server: phoenix-4.nezhasu.com
-      skip-cert-verify: true
-      sni: phoenix-4.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1E8\U0001F1F1 CL | ⬇️ 2.63 MB/s"
+    - name: '#363 CL1'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 53971
       server: glby4.nezhasu.com
@@ -206,7 +192,31 @@ proxies:
       sni: glby4.nezhasu.com
       tls: false
       type: hysteria2
-    - name: "\U0001F1E8\U0001F1F1 CL | ⬇️ 2.62 MB/s"
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 4006
+      server: 202.181.103.246
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 1933
+      server: 202.181.103.246
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: 日本|@ripaojiedian
+      network: tcp
+      password: BxceQaOe
+      port: 3194
+      server: 54.199.226.29
+      skip-cert-verify: true
+      sni: t.me%252Fripaojiedian
+      type: trojan
+    - name: '#364 CL2'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 64063
       server: glby5.nezhasu.com
@@ -214,10 +224,18 @@ proxies:
       sni: glby5.nezhasu.com
       tls: false
       type: hysteria2
+    - name: "\U0001F6A941@ConfigV2RayNG"
+      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+      port: 443
+      server: 152.67.95.183
+      skip-cert-verify: true
+      sni: www.apple.com
+      tls: false
+      type: hysteria2
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 2.54 MB/s"
+      name: '#352 JP63'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 60113
       server: db1.nezhasu.com
@@ -226,45 +244,48 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 2.44 MB/s"
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: gavazn.lnmarketplace.net
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 2.18 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50392
-      server: gy2.nezhasu.com
-      skip-cert-verify: true
-      sni: gy2.nezhasu.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 2.16 MB/s"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36600
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.12 MB/s"
-      password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+    - name: 16♾️@oneclickvpnkeys
+      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
       port: 443
-      server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-      sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+      server: 193.123.76.84
+      skip-cert-verify: true
+      sni: www.apple.com
       tls: false
       type: hysteria2
+    - name: 美国2|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 1281
+      server: 202.181.103.246
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: '#353 IN9'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52961
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      tls: false
+      type: hysteria2
+    - name: '#355 IN11'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64880
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      tls: false
+      type: hysteria2
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 韩国|@ripaojiedian"
+      password: qwerREWQ@@
+      port: 50411
+      server: 210.217.18.69
+      type: ss
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 2.11 MB/s"
+      name: '#349 KR47'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 53416
       server: shouer.nezhasu.com
@@ -273,73 +294,17 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.07 MB/s"
-      password: 4fb15f9c-f078-11ed-814b-f23c91369f2d
-      port: 443
-      server: 22480a39-t70f40-tnjsrz-h8vf.hk1.hyhuawei.com
-      skip-cert-verify: true
-      tls: false
-      type: hysteria2
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 2.07 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64172
-      server: chuncheon-2.nezhasu.com
-      skip-cert-verify: true
-      sni: chuncheon-2.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.06 MB/s"
-      password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
-      port: 443
-      server: 950c68df-t6t0g0-t85ssw-1bonh.hk1.hyhuawei.com
+    - name: KR_speednode_0008
+      network: ws
+      port: 8443
+      server: 59.3.3.161
+      servername: x.kkii.eu.org
       skip-cert-verify: false
-      sni: 950c68df-t6t0g0-t85ssw-1bonh.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 2.06 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 62544
-      server: chuncheon-1.nezhasu.com
-      skip-cert-verify: true
-      sni: chuncheon-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.03 MB/s"
-      password: c1785de0-212f-11ef-92aa-f23c9164ca5d
-      port: 443
-      server: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.01 MB/s"
-      password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
-      port: 443
-      server: 9c329770-t6ngg0-t6k5ga-1bonh.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 9c329770-t6ngg0-t6k5ga-1bonh.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 2.00 MB/s"
-      password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-      port: 443
-      server: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
-      skip-cert-verify: true
-      sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 1.74 MB/s"
-      password: de629d50-1711-11ed-bd7c-f23c913c8d2b
-      port: 443
-      server: 4a8146b5-t70f40-tlpfci-1jdha.hk1.hyhuawei.com
-      skip-cert-verify: true
-      tls: false
-      type: hysteria2
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3afad5df-e056-4301-846d-665b4ef51968
+      ws-opts:
+        headers:
+            Host: x.kkii.eu.org
+        path: /59.3.3.161:8443
