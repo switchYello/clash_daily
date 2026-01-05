@@ -42,12 +42,12 @@ jobs:
           git config --local user.name "github-actions[bot]"
           
           # 检查文件是否有变化
-          if [ -f "filtered.yml" ]; then
-            git add filtered.yml
+          if [ -f "filtered_clash_node.yml" ]; then
+            git add filtered_clash_node.yml
             # 如果没有变化会报错，所以加个判断
-            git commit -m "Update filtered.yml - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+            git commit -m "Update filtered_clash_node.yml - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
             git push
           else
-            echo "错误：未找到生成的 filtered.yml 文件"
+            echo "错误：未找到生成的 filtered_clash_node.yml 文件"
             exit 1
           fi
