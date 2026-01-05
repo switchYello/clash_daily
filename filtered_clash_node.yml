@@ -15,24 +15,12 @@ proxies:
     - alpn:
         - h3
       congestion-controller: bbr
-      name: '#100 US23'
+      name: '#341 US42'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 62191
+      port: 62863
       server: phoenix-4.nezhasu.com
       skip-cert-verify: true
       sni: phoenix-4.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: '#339 US40'
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 57290
-      server: phoenix-2.nezhasu.cn
-      skip-cert-verify: true
-      sni: phoenix-2.nezhasu.cn
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -51,60 +39,12 @@ proxies:
     - alpn:
         - h3
       congestion-controller: bbr
-      name: '#341 US42'
+      name: '#339 US40'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 62863
-      server: phoenix-4.nezhasu.com
+      port: 57290
+      server: phoenix-2.nezhasu.cn
       skip-cert-verify: true
-      sni: phoenix-4.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: '#340 US41'
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 55318
-      server: phoenix-3.nezhasu.com
-      skip-cert-verify: true
-      sni: phoenix-3.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: '#344 GB10'
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52006
-      server: lundun2.nezhasu.com
-      skip-cert-verify: true
-      sni: lundun2.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: '#343 GB9'
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 55423
-      server: lundun1.nezhasu.com
-      skip-cert-verify: true
-      sni: lundun1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: '#345 GB11'
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 60062
-      server: lundun3.nezhasu.com
-      skip-cert-verify: true
-      sni: lundun3.nezhasu.com
+      sni: phoenix-2.nezhasu.cn
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -123,12 +63,48 @@ proxies:
     - alpn:
         - h3
       congestion-controller: bbr
-      name: '#337 FR2'
+      name: '#343 GB9'
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 54929
-      server: marseille-1.nezhasu.com
+      port: 55423
+      server: lundun1.nezhasu.com
       skip-cert-verify: true
-      sni: marseille-1.nezhasu.com
+      sni: lundun1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: '#344 GB10'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52006
+      server: lundun2.nezhasu.com
+      skip-cert-verify: true
+      sni: lundun2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: '#345 GB11'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 60062
+      server: lundun3.nezhasu.com
+      skip-cert-verify: true
+      sni: lundun3.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: '#340 US41'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 55318
+      server: phoenix-3.nezhasu.com
+      skip-cert-verify: true
+      sni: phoenix-3.nezhasu.com
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -144,6 +120,48 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: '#100 US23'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 62191
+      server: phoenix-4.nezhasu.com
+      skip-cert-verify: true
+      sni: phoenix-4.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: '#337 FR2'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 54929
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: true
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - name: 'Join -> Telegram: @V2Gatee #4'
+      obfs: salamander
+      obfs-password: '&O#28YB5qK!5t#U'
+      password: yhqy5AHofQq
+      port: 46914
+      server: channel3.saghetalaie.homes
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: false
+      type: hysteria2
+    - name: "\U0001F6A941@ConfigV2RayNG"
+      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+      port: 443
+      server: 152.67.95.183
+      skip-cert-verify: true
+      sni: www.apple.com
+      tls: false
+      type: hysteria2
     - name: "\U0001F1EB\U0001F1F7 - FR - @freeOnlineVPN #1"
       obfs: salamander
       obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -154,24 +172,28 @@ proxies:
       sni: api.kermanshahi.org
       tls: false
       type: hysteria2
-    - name: "\U0001F6A936@oneclickvpnkeys"
-      obfs: salamander
-      obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-      password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-      port: 35000
-      server: 135.125.204.154
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 1933
+      server: 202.181.103.246
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: '#363 CL1'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 53971
+      server: glby4.nezhasu.com
       skip-cert-verify: true
-      sni: api.kermanshahi.org
+      sni: glby4.nezhasu.com
       tls: false
       type: hysteria2
-    - name: 'Join -> Telegram: @V2Gatee #4'
-      obfs: salamander
-      obfs-password: '&O#28YB5qK!5t#U'
-      password: yhqy5AHofQq
-      port: 46914
-      server: channel3.saghetalaie.homes
+    - name: '#364 CL2'
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64063
+      server: glby5.nezhasu.com
       skip-cert-verify: true
-      sni: www.bing.com
+      sni: glby5.nezhasu.com
       tls: false
       type: hysteria2
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
@@ -184,52 +206,14 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - name: '#363 CL1'
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 53971
-      server: glby4.nezhasu.com
+    - name: "\U0001F1EB\U0001F1F7 - FR - @freeOnlineVPN"
+      obfs: salamander
+      obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+      password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+      port: 35000
+      server: 51.178.55.157
       skip-cert-verify: true
-      sni: glby4.nezhasu.com
-      tls: false
-      type: hysteria2
-    - name: 日本2|@ripaojiedian
-      network: tcp
-      password: 381f2e86233720eacda26d50e9aa26da
-      port: 4006
-      server: 202.181.103.246
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 381f2e86233720eacda26d50e9aa26da
-      port: 1933
-      server: 202.181.103.246
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: 日本|@ripaojiedian
-      network: tcp
-      password: BxceQaOe
-      port: 3194
-      server: 54.199.226.29
-      skip-cert-verify: true
-      sni: t.me%252Fripaojiedian
-      type: trojan
-    - name: '#364 CL2'
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64063
-      server: glby5.nezhasu.com
-      skip-cert-verify: true
-      sni: glby5.nezhasu.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F6A941@ConfigV2RayNG"
-      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
-      port: 443
-      server: 152.67.95.183
-      skip-cert-verify: true
-      sni: www.apple.com
+      sni: api.kermanshahi.org
       tls: false
       type: hysteria2
     - alpn:
@@ -252,6 +236,20 @@ proxies:
       sni: www.apple.com
       tls: false
       type: hysteria2
+    - name: KR_speednode_0008
+      network: ws
+      port: 8443
+      server: 59.3.3.161
+      servername: x.kkii.eu.org
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3afad5df-e056-4301-846d-665b4ef51968
+      ws-opts:
+        headers:
+            Host: x.kkii.eu.org
+        path: /59.3.3.161:8443
     - name: 美国2|@ripaojiedian
       network: tcp
       password: 381f2e86233720eacda26d50e9aa26da
@@ -276,35 +274,13 @@ proxies:
       sni: mumbai-4.nezhasu.com
       tls: false
       type: hysteria2
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 韩国|@ripaojiedian"
-      password: qwerREWQ@@
-      port: 50411
-      server: 210.217.18.69
-      type: ss
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: '#349 KR47'
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 53416
-      server: shouer.nezhasu.com
+    - name: "\U0001F6A936@oneclickvpnkeys"
+      obfs: salamander
+      obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+      password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+      port: 35000
+      server: 135.125.204.154
       skip-cert-verify: true
-      sni: shouer.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: KR_speednode_0008
-      network: ws
-      port: 8443
-      server: 59.3.3.161
-      servername: x.kkii.eu.org
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3afad5df-e056-4301-846d-665b4ef51968
-      ws-opts:
-        headers:
-            Host: x.kkii.eu.org
-        path: /59.3.3.161:8443
+      sni: api.kermanshahi.org
+      tls: false
+      type: hysteria2
