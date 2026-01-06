@@ -1,21 +1,29 @@
 proxy-providers: {}
 proxies:
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 381f2e86233720eacda26d50e9aa26da
-      port: 1933
-      server: 160.16.196.59
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: 新加坡|@ripaojiedian
-      network: tcp
-      password: 381f2e86233720eacda26d50e9aa26da
-      port: 3901
-      server: 160.16.196.59
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
+    - name: ♂️38@oneclickvpnkeys
+      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+      port: 443
+      server: pq.us7.globals-download.com
+      skip-cert-verify: true
+      sni: www.apple.com
+      tls: false
+      type: hysteria2
+    - name: ♂️39@oneclickvpnkeys
+      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+      port: 443
+      server: pq.us1.globals-download.com
+      skip-cert-verify: true
+      sni: www.apple.com
+      tls: false
+      type: hysteria2
+    - name: ♂️71@oneclickvpnkeys
+      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+      port: 443
+      server: pq.us2.globals-download.com
+      skip-cert-verify: true
+      sni: www.apple.com
+      tls: false
+      type: hysteria2
     - name: 日本2|@ripaojiedian
       network: tcp
       password: 381f2e86233720eacda26d50e9aa26da
@@ -24,3 +32,35 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 1933
+      server: 160.16.196.59
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "telegram@V2rayBaaz◇⃟\U0001F49C #2"
+      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+      port: 443
+      server: 152.67.95.183
+      skip-cert-verify: true
+      sni: www.apple.com
+      tls: false
+      type: hysteria2
+    - name: 美国|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 1281
+      server: 160.16.196.59
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: 16♾️@ConfigV2RayNG
+      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+      port: 443
+      server: 193.123.76.84
+      skip-cert-verify: true
+      sni: www.apple.com
+      tls: false
+      type: hysteria2
