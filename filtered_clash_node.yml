@@ -1,72 +1,5 @@
 proxy-providers: {}
 proxies:
-    - name: 日本2|@ripaojiedian
-      network: tcp
-      password: 381f2e86233720eacda26d50e9aa26da
-      port: 4006
-      server: 160.16.196.59
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 韩国|@ripaojiedian"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
-    - name: All-@V2rayAlpha--41
-      password: c1785de0-212f-11ef-92aa-f23c9164ca5d
-      port: 443
-      server: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - name: All--@V2rayAlpha--14
-      password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-      port: 443
-      server: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
-      skip-cert-verify: true
-      sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - name: All--@V2rayAlpha--18
-      password: de629d50-1711-11ed-bd7c-f23c913c8d2b
-      port: 443
-      server: 4a8146b5-t70f40-tlpfci-1jdha.hk1.hyhuawei.com
-      skip-cert-verify: true
-      tls: false
-      type: hysteria2
-    - name: "telegram » mainv\U0001D7EEray¹ #1"
-      password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - name: All--@V2rayAlpha--19
-      password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
-      port: 443
-      server: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - name: All--@V2rayAlpha--20
-      password: 4fb15f9c-f078-11ed-814b-f23c91369f2d
-      port: 443
-      server: 22480a39-t70f40-tnjsrz-h8vf.hk1.hyhuawei.com
-      skip-cert-verify: true
-      tls: false
-      type: hysteria2
-    - name: All--@V2rayAlpha--21
-      password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-      port: 443
-      server: ad72fc1d-t70f40-tb016b-1m7l4.hk1.hyhuawei.com
-      skip-cert-verify: true
-      tls: false
-      type: hysteria2
     - name: 日本3|@ripaojiedian
       network: tcp
       password: 381f2e86233720eacda26d50e9aa26da
@@ -75,10 +8,19 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1ED\U0001F1F0 HK"
-      password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-      port: 443
-      server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-      sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-      tls: false
-      type: hysteria2
+    - name: 新加坡|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 3901
+      server: 160.16.196.59
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 4006
+      server: 160.16.196.59
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
