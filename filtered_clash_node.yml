@@ -1,21 +1,5 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F538@IRAN_V2RAY1\U0001F498 #11"
-      password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-      port: 1743
-      server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-      skip-cert-verify: false
-      sni: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-      tls: false
-      type: hysteria2
-    - name: "\U0001F538@IRAN_V2RAY1\U0001F498 #2"
-      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      port: 1743
-      server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
-      skip-cert-verify: false
-      sni: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
-      tls: false
-      type: hysteria2
     - name: ♂️38@oneclickvpnkeys
       password: e343471a-aad3-40da-9dea-72cc8c7dce5f
       port: 443
@@ -24,12 +8,20 @@ proxies:
       sni: www.apple.com
       tls: false
       type: hysteria2
-    - name: "All--@IRAN_V2RAY1\U0001F1FA\U0001F1F8 #5"
-      password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-      port: 1743
-      server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 1933
+      server: 160.16.144.208
       skip-cert-verify: false
-      sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
+      sni: www.nintendogames.net
+      type: trojan
+    - name: ♂️39@oneclickvpnkeys
+      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+      port: 443
+      server: pq.us1.globals-download.com
+      skip-cert-verify: true
+      sni: www.apple.com
       tls: false
       type: hysteria2
     - name: ♂️71@oneclickvpnkeys
@@ -40,60 +32,6 @@ proxies:
       sni: www.apple.com
       tls: false
       type: hysteria2
-    - name: "\U0001F538@IRAN_V2RAY1\U0001F498 #1"
-      password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      port: 1743
-      server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
-      skip-cert-verify: false
-      sni: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
-      tls: false
-      type: hysteria2
-    - name: "All--@IRAN_V2RAY1\U0001F1FA\U0001F1F8 #1"
-      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      port: 1743
-      server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-      skip-cert-verify: false
-      sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-      tls: false
-      type: hysteria2
-    - name: "\U0001F538@IRAN_V2RAY1\U0001F498"
-      password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      port: 1743
-      server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
-      skip-cert-verify: false
-      sni: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
-      tls: false
-      type: hysteria2
-    - name: ♂️39@oneclickvpnkeys
-      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
-      port: 443
-      server: pq.us1.globals-download.com
-      skip-cert-verify: true
-      sni: www.apple.com
-      tls: false
-      type: hysteria2
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: US_speednode_0027
-      port: 443
-      reality-opts:
-        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-        short-id: 1ed136481e0ede74
-      server: japan.geodema.network
-      servername: japan.geodema.network
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 381f2e86233720eacda26d50e9aa26da
-      port: 1933
-      server: 160.16.144.208
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
     - name: 日本2|@ripaojiedian
       network: tcp
       password: 381f2e86233720eacda26d50e9aa26da
@@ -102,22 +40,20 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: "telegram@V2rayBaaz◇⃟\U0001F49C #2"
+    - name: 新加坡|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 3901
+      server: 160.16.116.227
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: ♂️33@oneclickvpnkeys
       password: e343471a-aad3-40da-9dea-72cc8c7dce5f
       port: 443
-      server: 152.67.95.183
+      server: 158.179.18.251
       skip-cert-verify: true
-      sni: www.apple.com
-      tls: false
-      type: hysteria2
-    - name: 'Join -> Telegram: @V2Gatee #4'
-      obfs: salamander
-      obfs-password: '&O#28YB5qK!5t#U'
-      password: yhqy5AHofQq
-      port: 46914
-      server: channel3.saghetalaie.homes
-      skip-cert-verify: true
-      sni: www.bing.com
+      sni: api.push.apple.com
       tls: false
       type: hysteria2
     - name: 'ConfigV2RayNG #6'
@@ -130,34 +66,13 @@ proxies:
       sni: api.kermanshahi.org
       tls: false
       type: hysteria2
-    - name: "\U0001F1EB\U0001F1F7 - FR - @freeOnlineVPN #1"
-      obfs: salamander
-      obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-      password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-      port: 35000
-      server: 51.178.55.157
+    - name: All--@V2rayAlpha--20
+      password: 4fb15f9c-f078-11ed-814b-f23c91369f2d
+      port: 443
+      server: 22480a39-t70f40-tnjsrz-h8vf.hk1.hyhuawei.com
       skip-cert-verify: true
-      sni: api.kermanshahi.org
       tls: false
       type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: '&O#28YB5qK!5t#U'
-      password: freehomesvpnchannel3
-      port: 46914
-      server: channel1.saghetalaie.homes
-      skip-cert-verify: true
-      sni: nalog.ru
-      tls: false
-      type: hysteria2
-    - name: 新加坡3|@ripaojiedian
-      network: tcp
-      password: BxceQaOe
-      port: 2673
-      server: 43.199.160.78
-      skip-cert-verify: true
-      sni: t.me%252Fripaojiedian
-      type: trojan
     - name: All-@V2rayAlpha--41
       password: c1785de0-212f-11ef-92aa-f23c9164ca5d
       port: 443
@@ -173,12 +88,12 @@ proxies:
       sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
       tls: false
       type: hysteria2
-    - name: All--@V2rayAlpha--23
-      password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+    - name: "telegram » mainv\U0001D7EEray¹ #1"
+      password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
       port: 443
-      server: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com
+      server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
       skip-cert-verify: false
-      sni: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com
+      sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
       tls: false
       type: hysteria2
     - name: All--@V2rayAlpha--18
@@ -186,14 +101,6 @@ proxies:
       port: 443
       server: 4a8146b5-t70f40-tlpfci-1jdha.hk1.hyhuawei.com
       skip-cert-verify: true
-      tls: false
-      type: hysteria2
-    - name: All--@V2rayAlpha--19
-      password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
-      port: 443
-      server: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
       tls: false
       type: hysteria2
     - name: All--@V2rayAlpha--14
@@ -204,27 +111,28 @@ proxies:
       sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
       tls: false
       type: hysteria2
-    - name: ♂️33@oneclickvpnkeys
-      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+    - name: All--@V2rayAlpha--19
+      password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
       port: 443
-      server: 158.179.18.251
-      skip-cert-verify: true
-      sni: api.push.apple.com
+      server: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
+      skip-cert-verify: false
+      sni: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
       tls: false
       type: hysteria2
-    - name: 美国|@ripaojiedian
-      network: tcp
-      password: 381f2e86233720eacda26d50e9aa26da
-      port: 1281
-      server: 160.16.144.208
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: All--@V2rayAlpha--20
-      password: 4fb15f9c-f078-11ed-814b-f23c91369f2d
+    - name: "telegram@V2rayBaaz◇⃟\U0001F49C #2"
+      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
       port: 443
-      server: 22480a39-t70f40-tnjsrz-h8vf.hk1.hyhuawei.com
+      server: 152.67.95.183
       skip-cert-verify: true
+      sni: www.apple.com
+      tls: false
+      type: hysteria2
+    - name: ♂️40@oneclickvpnkeys
+      password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+      port: 443
+      server: 158.178.236.104
+      skip-cert-verify: true
+      sni: api.push.apple.com
       tls: false
       type: hysteria2
     - name: "\U0001F1F8\U0001F1EC - SG - @freeOnlineVPN"
