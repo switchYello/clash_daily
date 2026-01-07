@@ -1,9 +1,9 @@
 proxy-providers: {}
 proxies:
-    - name: US_speednode_0025
+    - name: US_speednode_0030
       network: ws
       port: 443
-      server: cloudflare.182682.xyz
+      server: 162.159.16.63
       servername: l.ayovo.netlib.re
       skip-cert-verify: false
       tls: true
@@ -14,10 +14,10 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: US_speednode_0030
+    - name: US_speednode_0025
       network: ws
       port: 443
-      server: 162.159.16.63
+      server: cloudflare.182682.xyz
       servername: l.ayovo.netlib.re
       skip-cert-verify: false
       tls: true
@@ -45,6 +45,22 @@ proxies:
       type: vless
       udp: true
       uuid: 8cf4d179-a921-49e5-934c-dcacd276c620
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 4006
+      server: 160.16.144.208
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: TW_speednode_0021
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 1443
+      server: twmoon1-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      udp: true
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
     - name: 日本3|@ripaojiedian
       network: tcp
       password: 381f2e86233720eacda26d50e9aa26da
@@ -53,19 +69,3 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: 新加坡2|@ripaojiedian
-      network: tcp
-      password: 381f2e86233720eacda26d50e9aa26da
-      port: 3901
-      server: 160.16.144.208
-      skip-cert-verify: true
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "telegram » mainv\U0001D7EEray¹"
-      password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
