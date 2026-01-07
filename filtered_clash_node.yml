@@ -28,6 +28,30 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 1933
+      server: 160.16.144.208
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 4006
+      server: 160.16.144.208
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "telegram » mainv\U0001D7EEray¹"
+      password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+      port: 443
+      server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
+      skip-cert-verify: false
+      sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
+      tls: false
+      type: hysteria2
     - name: "\U0001F1E9\U0001F1EA - DE - @freeOnlineVPN #3"
       obfs: salamander
       obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -36,30 +60,5 @@ proxies:
       server: 5.175.249.174
       skip-cert-verify: false
       sni: api.kermanshahi.org
-      tls: false
-      type: hysteria2
-    - http-opts:
-        headers:
-            Host:
-                - appleidcenteral.ir
-        method: GET
-        path:
-            - /
-      name: IR_speednode_0007
-      network: http
-      port: 4005
-      server: appleidcenteral.ir
-      servername: appleidcenteral.ir
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 8cf4d179-a921-49e5-934c-dcacd276c620
-    - name: "telegram » mainv\U0001D7EEray¹ #1"
-      password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
       tls: false
       type: hysteria2
