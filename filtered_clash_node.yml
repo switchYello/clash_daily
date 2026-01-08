@@ -14,15 +14,14 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: SI_speednode_0053
-      port: 443
-      server: ficdn16.suio.me
-      servername: ficdn16.suio.me
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 21f8d9aa-8ec7-4340-aa0a-7ce19f244adc
+    - name: 日本|@ripaojiedian
+      network: tcp
+      password: BxceQaOe
+      port: 3194
+      server: 54.250.239.2
+      skip-cert-verify: true
+      sni: t.me%252Fripaojiedian
+      type: trojan
     - name: 日本2|@ripaojiedian
       network: tcp
       password: 381f2e86233720eacda26d50e9aa26da
@@ -31,35 +30,35 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: DE_speednode_0004
-      network: ws
-      port: 2087
-      server: api.dark-coffe.com
-      servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 1933
+      server: 160.16.138.24
       skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-      ws-opts:
-        headers:
-            Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-        path: /?ed=2048
-    - name: 香港5|@ripaojiedian
-      network: tcp
-      password: BxceQaOe
-      port: 443
-      server: 58.152.18.21
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
+      sni: www.nintendogames.net
       type: trojan
-    - name: 日本|@ripaojiedian
+    - name: 新加坡|@ripaojiedian
       network: tcp
-      password: BxceQaOe
-      port: 3194
-      server: 54.250.239.2
-      skip-cert-verify: true
-      sni: t.me%252Fripaojiedian
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 3901
+      server: 160.16.68.250
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F2\U0001F1FE 马来西亚|@ripaojiedian"
+      password: 46d46fd902d485e8
+      port: 11201
+      server: 202.122.145.125
+      type: ss
+    - name: 美国2|@ripaojiedian
+      network: tcp
+      password: 381f2e86233720eacda26d50e9aa26da
+      port: 1281
+      server: 160.16.138.24
+      skip-cert-verify: false
+      sni: www.nintendogames.net
       type: trojan
     - name: 美国|@ripaojiedian
       network: tcp
@@ -69,22 +68,6 @@ proxies:
       skip-cert-verify: true
       sni: www.nintendogames.net
       type: trojan
-    - name: 美国2|@ripaojiedian
-      network: tcp
-      password: 381f2e86233720eacda26d50e9aa26da
-      port: 1281
-      server: 160.16.138.24
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "telegram » mainv\U0001D7EEray¹"
-      password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
-      skip-cert-verify: false
-      sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
     - name: US_speednode_0079
       network: ws
       port: 80
@@ -99,17 +82,3 @@ proxies:
         headers:
             Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.Shahin.vegaskala.com.fdf.vegaskala.com.vegafod.com.
         path: /@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: US_speednode_0077
-      port: 443
-      reality-opts:
-        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-        short-id: 1ed136481e0ede74
-      server: japan.geodema.network
-      servername: japan.geodema.network
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
