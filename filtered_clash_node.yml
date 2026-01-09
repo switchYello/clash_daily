@@ -1,5 +1,25 @@
 proxy-providers: {}
 proxies:
+    - name: "♾️Join->\U0001F194️@ATLAS_V2VPN\U0001F193️\U0001F6DC\U0001F537️102..."
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35000
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: "telegram@V2rayBaaz◇⃟\U0001F49C #1"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36600
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
     - name: 日本2|@ripaojiedian
       network: tcp
       password: 61d8077bfb174e171b8283f155a555ad
@@ -8,47 +28,11 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: 新加坡2|@ripaojiedian
+    - name: 香港3|@ripaojiedian
       network: tcp
       password: 61d8077bfb174e171b8283f155a555ad
-      port: 3076
-      server: 160.16.72.33
-      skip-cert-verify: true
-      sni: www.nintendogames.net
-      type: trojan
-    - name: 新加坡|@ripaojiedian
-      network: tcp
-      password: 61d8077bfb174e171b8283f155a555ad
-      port: 3901
-      server: 160.16.87.174
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 61d8077bfb174e171b8283f155a555ad
-      port: 1933
-      server: 160.16.87.174
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: 香港5|@ripaojiedian
-      network: tcp
-      password: BxceQaOe
       port: 443
-      server: 58.152.30.149
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
+      server: 112.118.116.123
+      skip-cert-verify: false
+      sni: www.nintendogames.net
       type: trojan
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 日本4|@ripaojiedian"
-      password: e611027a-7b55-4f64-b8df-258f2d7ef95c
-      port: 18005
-      server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 韩国|@ripaojiedian"
-      password: qwerREWQ@@
-      port: 3733
-      server: 27.255.82.135
-      type: ss
