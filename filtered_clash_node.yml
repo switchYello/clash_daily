@@ -1,19 +1,13 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: US_speednode_0026
-      port: 443
-      reality-opts:
-        public-key: 9mkPUmY5M-N81bSDf3lP9X3JnH25l4SfeUTnlwV04Eo
-        short-id: d77c4204
-      server: us1.miyazono-kaori.com
-      servername: download-porter.hoyoverse.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+    - name: CA3｜商宽｜非常安全
+      password: b03b4fc5-4d60-428c-ae6d-87d365a5b5a7
+      port: 20000
+      server: jnd.dabache.top
+      skip-cert-verify: true
+      sni: jnd.dabache.top
+      tls: false
+      type: hysteria2
     - client-fingerprint: ios
       flow: xtls-rprx-vision
       name: US_speednode_0025
@@ -22,6 +16,20 @@ proxies:
         public-key: _TIQSjojgpdSBoSVXuQjFSqIdPeXjQIQkM5cFSv6Gnc
         short-id: 9613864900a8f12d
       server: us2.miyazono-kaori.com
+      servername: download-porter.hoyoverse.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: US_speednode_0026
+      port: 443
+      reality-opts:
+        public-key: 9mkPUmY5M-N81bSDf3lP9X3JnH25l4SfeUTnlwV04Eo
+        short-id: d77c4204
+      server: us1.miyazono-kaori.com
       servername: download-porter.hoyoverse.com
       skip-cert-verify: false
       tls: true
@@ -44,20 +52,6 @@ proxies:
       uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: NL_speednode_0014
-      port: 443
-      reality-opts:
-        public-key: Ax50I4wgBCS5ejrqH-QGRL28oyr5-ocbBw6U7rHFzXI
-        short-id: 883d8dad940eb1
-      server: nl2.miyazono-kaori.com
-      servername: www.philips.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
       name: US_speednode_0028
       port: 443
       reality-opts:
@@ -65,6 +59,20 @@ proxies:
         short-id: 8b0b8e33a9ae3e
       server: us11.miyazono-kaori.com
       servername: download-porter.hoyoverse.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: NL_speednode_0014
+      port: 443
+      reality-opts:
+        public-key: Ax50I4wgBCS5ejrqH-QGRL28oyr5-ocbBw6U7rHFzXI
+        short-id: 883d8dad940eb1
+      server: nl2.miyazono-kaori.com
+      servername: www.philips.com
       skip-cert-verify: false
       tls: true
       type: vless
@@ -83,24 +91,14 @@ proxies:
       type: vless
       udp: true
       uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
+    - name: '@ConfigV2RayNG'
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
-      port: 36300
+      port: 36400
       server: 206.71.158.37
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: ✅ @ConfigV2RayNG (نت ملی)
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: gavazn.lnmarketplace.net
       skip-cert-verify: true
-      sni: gavazn.55994421.xyz
+      sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
     - name: 'ConfigV2RayNG #3'
@@ -123,6 +121,16 @@ proxies:
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
+    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35200
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
     - name: 'ConfigV2RayNG #2'
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
@@ -133,51 +141,11 @@ proxies:
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
-    - name: "\U0001F45182@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35000
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: '@ConfigV2RayNG'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
     - name: "telegram@V2rayBaaz◇⃟\U0001F49C #1"
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
       port: 36600
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "\U0001F4DF22@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: 206.71.158.23
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35200
       server: 206.71.158.37
       skip-cert-verify: true
       sni: YAPC-1.afshin.ir
@@ -193,36 +161,52 @@ proxies:
       sni: www.bing.com
       tls: false
       type: hysteria2
-    - http-opts:
-        headers:
-            Host:
-                - mdundo.com
-        method: GET
-        path:
-            - /
-      name: NL_speednode_0013
-      network: http
-      port: 8949
-      server: miow.thecommit.sbs
-      servername: mdundo.com
-      skip-cert-verify: false
+    - name: "\U0001F4DF22@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: 206.71.158.23
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
       tls: false
-      type: vless
-      udp: true
-      uuid: 28f609a0-ce33-4431-97be-64d650d78157
-    - client-fingerprint: firefox
-      name: GB_speednode_0007
-      port: 587
-      reality-opts:
-        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-        short-id: 916e8258c4a01b02
-      server: turkiye.torprospeed.ir
-      servername: excoino.com
+      type: hysteria2
+    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36300
+      server: 206.71.158.37
       skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: ✅ @ConfigV2RayNG (نت ملی)
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: gavazn.lnmarketplace.net
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
+    - name: "\U0001F45182@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35000
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: DE6｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.7
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -233,46 +217,6 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: HK93｜机房｜低风险
-      network: ws
-      port: "443"
-      server: n1761214904.wpg27.xyz
-      servername: n1761214904.wpg27.xyz
-      tls: true
-      type: vmess
-      uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
-      ws-opts:
-        headers:
-            Host: n1761214904.wpg27.xyz
-        path: /
-    - client-fingerprint: firefox
-      name: CZ_speednode_0004
-      port: 587
-      reality-opts:
-        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-        short-id: 916e8258c4a01b02
-      server: chkeg.torprospeed.ir
-      servername: excoino.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-    - client-fingerprint: firefox
-      name: GB_speednode_0008
-      port: 587
-      reality-opts:
-        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-        short-id: 916e8258c4a01b02
-      server: england.torprospeed.ir
-      servername: excoino.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
     - client-fingerprint: firefox
       name: BG_speednode_0001
       port: 2255
@@ -286,3 +230,31 @@ proxies:
       type: vless
       udp: true
       uuid: 02b320ce-09f8-4cb5-9c46-9024f5585881
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 61d8077bfb174e171b8283f155a555ad
+      port: 1933
+      server: 160.16.130.66
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - client-fingerprint: firefox
+      name: GB_speednode_0008
+      port: 587
+      reality-opts:
+        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+        short-id: 916e8258c4a01b02
+      server: england.torprospeed.ir
+      servername: excoino.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+    - name: IN2｜机房｜低风险
+      password: M7v%w11Se*
+      port: 443
+      server: hyfuuf6.wsone.icu
+      skip-cert-verify: true
+      sni: hyfuuf6.wsone.icu
+      type: trojan
