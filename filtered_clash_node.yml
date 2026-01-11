@@ -1,13 +1,5 @@
 proxy-providers: {}
 proxies:
-    - name: 日本2|@ripaojiedian
-      network: tcp
-      password: 61d8077bfb174e171b8283f155a555ad
-      port: 4006
-      server: 153.121.51.29
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
     - client-fingerprint: firefox
       name: GB_speednode_0009
       port: 587
@@ -21,14 +13,6 @@ proxies:
       type: vless
       udp: true
       uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-    - name: 新加坡|@ripaojiedian
-      network: tcp
-      password: 61d8077bfb174e171b8283f155a555ad
-      port: 544
-      server: 160.16.70.180
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
     - client-fingerprint: firefox
       name: ES_speednode_0005
       port: 587
@@ -42,14 +26,6 @@ proxies:
       type: vless
       udp: true
       uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-    - name: 新加坡2|@ripaojiedian
-      network: tcp
-      password: 61d8077bfb174e171b8283f155a555ad
-      port: 544
-      server: 160.16.150.76
-      skip-cert-verify: true
-      sni: www.nintendogames.net
-      type: trojan
     - client-fingerprint: firefox
       name: CZ_speednode_0004
       port: 587
@@ -63,33 +39,13 @@ proxies:
       type: vless
       udp: true
       uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-    - name: 'ConfigV2RayNG #2'
+    - name: "telegram@V2rayBaaz◇⃟\U0001F49C #1"
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
-      port: 36300
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: ✅ @ConfigV2RayNG (نت ملی)
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: gavazn.lnmarketplace.net
+      port: 36600
+      server: 206.71.158.37
       skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
-    - name: 'ConfigV2RayNG #3'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
@@ -103,93 +59,21 @@ proxies:
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 61d8077bfb174e171b8283f155a555ad
-      port: 1933
-      server: 153.121.51.29
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - alterId: 0
-      cipher: auto
-      name: HK97｜机房｜低风险
-      network: ws
-      port: "443"
-      server: n1761214907.74qxv.top
-      servername: n1761214907.74qxv.top
-      tls: true
-      type: vmess
-      uuid: 4c17399f-c93d-4527-8ace-5bdc2f0901f3
-      ws-opts:
-        headers:
-            Host: n1761214907.74qxv.top
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: HK92｜机房｜低风险
-      network: ws
-      port: "443"
-      server: n1761214912.wpg27.xyz
-      servername: n1761214912.wpg27.xyz
-      tls: true
-      type: vmess
-      uuid: 4f86a909-836d-4643-b650-d812144a1fa9
-      ws-opts:
-        headers:
-            Host: n1761214912.wpg27.xyz
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: HK93｜机房｜低风险
-      network: ws
-      port: "443"
-      server: n1761214904.wpg27.xyz
-      servername: n1761214904.wpg27.xyz
-      tls: true
-      type: vmess
-      uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
-      ws-opts:
-        headers:
-            Host: n1761214904.wpg27.xyz
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: HK96｜机房｜低风险
-      network: ws
-      port: "443"
-      server: n1761214905.wpg27.xyz
-      servername: n1761214905.wpg27.xyz
-      tls: true
-      type: vmess
-      uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
-      ws-opts:
-        headers:
-            Host: n1761214905.wpg27.xyz
-        path: /
-    - name: GB4｜商宽｜非常安全
-      password: 001f6d6b-6305-408d-a2ce-2f73c613df40
-      port: 27200
-      server: hl.kaixincloud.top
-      skip-cert-verify: true
-      sni: hl.kaixincloud.top
-      tls: false
-      type: hysteria2
-    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36300
-      server: 206.71.158.37
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
     - name: 'ConfigV2RayNG #1'
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
       port: 35200
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: 'ConfigV2RayNG #3'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36400
       server: yapc-1.adamhayward.co.uk
       skip-cert-verify: false
       sni: YAPC-1.afshin.ir
@@ -215,14 +99,24 @@ proxies:
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
-    - name: "telegram@V2rayBaaz◇⃟\U0001F49C #1"
+    - name: 'ConfigV2RayNG #2'
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
-      port: 36600
-      server: 206.71.158.37
-      skip-cert-verify: true
+      port: 36300
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
       sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: ✅ @ConfigV2RayNG (نت ملی)
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: gavazn.lnmarketplace.net
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
     - name: "\U0001F4DF22@ConfigV2RayNG"
@@ -235,6 +129,24 @@ proxies:
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
+    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36300
+      server: 206.71.158.37
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: 香港5|@ripaojiedian
+      network: tcp
+      password: BxceQaOe
+      port: 443
+      server: 58.152.25.220
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
     - name: ⛄11@ConfigV2RayNG
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -245,19 +157,42 @@ proxies:
       sni: www.bing.com
       tls: false
       type: hysteria2
-    - client-fingerprint: firefox
-      name: GB_speednode_0010
-      port: 587
-      reality-opts:
-        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-        short-id: 916e8258c4a01b02
-      server: turkiye.torprospeed.ir
-      servername: excoino.com
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 61d8077bfb174e171b8283f155a555ad
+      port: 1933
+      server: 153.121.38.213
       skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - alterId: 0
+      cipher: auto
+      name: HK90｜机房｜低风险
+      network: ws
+      port: "443"
+      server: n1761214908.wpg27.xyz
+      servername: n1761214908.wpg27.xyz
       tls: true
-      type: vless
-      udp: true
-      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+      type: vmess
+      uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+      ws-opts:
+        headers:
+            Host: n1761214908.wpg27.xyz
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: HK96｜机房｜低风险
+      network: ws
+      port: "443"
+      server: n1761214905.wpg27.xyz
+      servername: n1761214905.wpg27.xyz
+      tls: true
+      type: vmess
+      uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
+      ws-opts:
+        headers:
+            Host: n1761214905.wpg27.xyz
+        path: /
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -268,9 +203,11 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - name: DE6｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.7
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
+    - name: 香港3|@ripaojiedian
+      network: tcp
+      password: 61d8077bfb174e171b8283f155a555ad
+      port: 443
+      server: 112.118.116.123
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
