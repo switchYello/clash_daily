@@ -1,22 +1,35 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F4DF22@ConfigV2RayNG"
+    - client-fingerprint: firefox
+      name: GB_speednode_0005
+      port: 587
+      reality-opts:
+        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+        short-id: 916e8258c4a01b02
+      server: england.torprospeed.ir
+      servername: excoino.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+    - name: ✅ @ConfigV2RayNG (نت ملی)
       obfs: salamander
       obfs-password: Telegram-->@Ln2Ray
       password: Telegram-->@Ln2Ray
       port: 45000
-      server: 206.71.158.23
+      server: gavazn.lnmarketplace.net
       skip-cert-verify: true
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
-    - name: 'ConfigV2RayNG #2'
+    - name: "telegram@V2rayBaaz◇⃟\U0001F49C #1"
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
-      port: 36300
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
+      port: 36600
+      server: 206.71.158.37
+      skip-cert-verify: true
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
@@ -30,14 +43,32 @@ proxies:
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
-    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
+    - name: US48｜机房｜低风险
+      password: f19823db-48e6-44fc-8a6a-372ce3611763
+      port: 26902
+      server: 170.9.63.232
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: false
+      type: hysteria2
+    - name: 'ConfigV2RayNG #1'
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
-      port: 36300
-      server: 206.71.158.37
+      port: 35200
+      server: yapc-1.adamhayward.co.uk
       skip-cert-verify: false
       sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: "\U0001F4DF22@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: 206.71.158.23
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
     - name: 'ConfigV2RayNG #3'
@@ -50,34 +81,14 @@ proxies:
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
-    - name: "telegram@V2rayBaaz◇⃟\U0001F49C #1"
+    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
-      port: 36600
+      port: 36300
       server: 206.71.158.37
-      skip-cert-verify: true
+      skip-cert-verify: false
       sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "\U0001F45182@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35000
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: ✅ @ConfigV2RayNG (نت ملی)
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: gavazn.lnmarketplace.net
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
     - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
@@ -100,13 +111,23 @@ proxies:
       sni: www.bing.com
       tls: false
       type: hysteria2
-    - name: 'ConfigV2RayNG #1'
+    - name: 'ConfigV2RayNG #2'
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
-      port: 35200
+      port: 36300
       server: yapc-1.adamhayward.co.uk
       skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: "\U0001F45182@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35000
+      server: 206.71.158.37
+      skip-cert-verify: true
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
@@ -118,19 +139,6 @@ proxies:
       sni: apple.com
       tls: false
       type: hysteria2
-    - name: DE51｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.7
-      tls: false
-      type: socks5
-      username: Og%3D%3D
-    - name: CA2｜机房｜低风险
-      password: 469c8135-8aea-4c7f-8ec2-c5fdfa980b48
-      port: 443
-      server: tuntro006.instconn.com
-      skip-cert-verify: true
-      sni: torontorm1.686911.xyz
-      type: trojan
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -141,30 +149,26 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - name: 日本2|@ripaojiedian
+    - name: 新加坡|@ripaojiedian
       network: tcp
       password: 61d8077bfb174e171b8283f155a555ad
-      port: 1933
-      server: 153.121.38.213
+      port: 3901
+      server: 153.121.45.139
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - client-fingerprint: firefox
-      name: GB_speednode_0005
-      port: 587
-      reality-opts:
-        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-        short-id: 916e8258c4a01b02
-      server: england.torprospeed.ir
-      servername: excoino.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-    - cipher: aes-256-cfb
-      name: 韩国|@ripaojiedian
-      password: qwerREWQ@@
-      port: 51978
-      server: 168.126.234.247
-      type: ss
+    - name: DE51｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.7
+      tls: false
+      type: socks5
+      username: Og%3D%3D
+    - alterId: 0
+      cipher: auto
+      name: DE55｜机房｜低风险
+      network: tcp
+      port: "180"
+      server: 82.198.246.97
+      tls: false
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
