@@ -1,9 +1,18 @@
 proxy-providers: {}
 proxies:
-    - name: US_speednode_0013
+    - alterId: 0
+      cipher: auto
+      name: DE72｜机房｜低风险
+      network: tcp
+      port: "180"
+      server: 82.198.246.97
+      tls: false
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    - name: US_speednode_0012
       network: ws
       port: 443
-      server: 104.18.185.26
+      server: cloudflare.182682.xyz
       servername: l.ayovo.netlib.re
       skip-cert-verify: false
       tls: true
@@ -28,155 +37,22 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: US_speednode_0012
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: 日本2|@ripaojiedian
+    - name: 新加坡2|@ripaojiedian
       network: tcp
       password: 61d8077bfb174e171b8283f155a555ad
-      port: 1933
-      server: 160.16.117.182
-      skip-cert-verify: false
+      port: 544
+      server: 160.16.124.55
+      skip-cert-verify: true
       sni: www.nintendogames.net
       type: trojan
-    - name: ✅ @ConfigV2RayNG (نت ملی)
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: gavazn.lnmarketplace.net
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
-    - name: GB2｜商宽｜非常安全
-      password: dongtaiwang.com
-      port: 33550
-      server: 89.144.35.25
-      skip-cert-verify: true
-      sni: apple.com
-      tls: false
-      type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: DE72｜机房｜低风险
+    - name: 香港4|@ripaojiedian
       network: tcp
-      port: "180"
-      server: 82.198.246.97
-      tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - name: 'ConfigV2RayNG #3'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: 'ConfigV2RayNG #2'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36300
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "telegram@V2rayBaaz◇⃟\U0001F49C #1"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36600
-      server: 206.71.158.37
+      password: BxceQaOe
+      port: 443
+      server: 58.152.25.130
       skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: 'ConfigV2RayNG #1'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35200
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35200
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "\U0001F4DF22@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: 206.71.158.23
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
-    - name: "\U0001F45182@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35000
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: '@ConfigV2RayNG'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36300
-      server: 206.71.158.37
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: ⛄11@ConfigV2RayNG
-      obfs: salamander
-      obfs-password: '&O#28YB5qK!5t#U'
-      password: yhqy5AHofQq
-      port: 46914
-      server: channel3.saghetalaie.homes
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: false
-      type: hysteria2
+      sni: t.me%2Fripaojiedian
+      type: trojan
     - name: 香港5|@ripaojiedian
       network: tcp
       password: BxceQaOe
@@ -187,13 +63,13 @@ proxies:
       type: trojan
     - alterId: 2
       cipher: auto
-      name: HK326｜家宽｜非常安全
+      name: HK321｜家宽｜非常安全
       network: ws
       port: "80"
-      server: e542f5ac-t8pj40-td95qh-1isea.hkt.gotochinatown.net
+      server: a2ec8dbd-t8pj40-tgl02u-1jr1u.hkt.gotochinatown.net
       tls: false
       type: vmess
-      uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+      uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
       ws-opts:
         headers:
             Host: broadcastlv.chat.bilibili.com
@@ -211,6 +87,143 @@ proxies:
         headers:
             Host: broadcastlv.chat.bilibili.com
         path: /
+    - name: 新加坡|@ripaojiedian
+      network: tcp
+      password: 61d8077bfb174e171b8283f155a555ad
+      port: 3901
+      server: 153.121.65.107
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F45182@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35000
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: "\U0001F4DF22@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: 206.71.158.23
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35200
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: 'ConfigV2RayNG #1'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35200
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: "telegram@V2rayBaaz◇⃟\U0001F49C #1"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36600
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36300
+      server: 206.71.158.37
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: ✅ @ConfigV2RayNG (نت ملی)
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: gavazn.lnmarketplace.net
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
+    - name: 'ConfigV2RayNG #2'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36300
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - alterId: 2
+      cipher: auto
+      name: HK326｜家宽｜非常安全
+      network: ws
+      port: "80"
+      server: e542f5ac-t8pj40-td95qh-1isea.hkt.gotochinatown.net
+      tls: false
+      type: vmess
+      uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - name: 'ConfigV2RayNG #3'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36400
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - alterId: 2
+      cipher: auto
+      name: HK322｜家宽｜非常安全
+      network: ws
+      port: "80"
+      server: 61dbc334-t8nog0-tl09la-1q91p.hkt.gotochinatown.net
+      tls: false
+      type: vmess
+      uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      name: HK317｜家宽｜非常安全
+      network: ws
+      port: "80"
+      server: 0a023e52-t8pj40-tifnix-1ro8s.hkt.gotochinatown.net
+      tls: false
+      type: vmess
+      uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
     - alterId: 2
       cipher: auto
       name: HK316｜家宽｜非常安全
@@ -224,6 +237,79 @@ proxies:
         headers:
             Host: 1c13c28a-t8nog0-thntyd-1f596.hkt.gotochinatown.net
         path: /
+    - name: ⛄11@ConfigV2RayNG
+      obfs: salamander
+      obfs-password: '&O#28YB5qK!5t#U'
+      password: yhqy5AHofQq
+      port: 46914
+      server: channel3.saghetalaie.homes
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: false
+      type: hysteria2
+    - name: '@ConfigV2RayNG'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36400
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: GB2｜商宽｜非常安全
+      password: dongtaiwang.com
+      port: 33550
+      server: 89.144.35.25
+      skip-cert-verify: true
+      sni: apple.com
+      tls: false
+      type: hysteria2
+    - alterId: 2
+      cipher: auto
+      name: HK318｜家宽｜非常安全
+      network: ws
+      port: "80"
+      server: 0bba3742-t8nog0-tlvq5w-1jcwu.hkt.gotochinatown.net
+      tls: false
+      type: vmess
+      uuid: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - name: DE68｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.7
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
+    - alterId: 2
+      cipher: auto
+      name: HK319｜家宽｜非常安全
+      network: ws
+      port: "80"
+      server: 2712f088-t8nog0-tnqudu-1mim2.hkt.gotochinatown.net
+      tls: false
+      type: vmess
+      uuid: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      name: HK328｜家宽｜非常安全
+      network: ws
+      port: "80"
+      server: e6c543b9-t8pj40-tan99f-1rdqg.hkt.gotochinatown.net
+      tls: false
+      type: vmess
+      uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -236,24 +322,17 @@ proxies:
       type: hysteria2
     - alterId: 2
       cipher: auto
-      name: HK323｜家宽｜非常安全
+      name: HK327｜家宽｜非常安全
       network: ws
       port: "80"
-      server: 9ef7d9d8-t8pj40-tr9h64-1f1f1.hkt.gotochinatown.net
+      server: 1fd3ae26-t8nog0-tpftcp-13x18.hkt.gotochinatown.net
       tls: false
       type: vmess
-      uuid: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+      uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
       ws-opts:
         headers:
             Host: broadcastlv.chat.bilibili.com
         path: /
-    - name: IN4｜机房｜低风险
-      password: M7v%w11Se*
-      port: 443
-      server: tttyder.wsone.icu
-      skip-cert-verify: true
-      sni: tttyder.wsone.icu
-      type: trojan
     - alterId: 2
       cipher: auto
       name: HK313｜家宽｜非常安全
@@ -269,27 +348,14 @@ proxies:
         path: /
     - alterId: 2
       cipher: auto
-      name: HK315｜家宽｜非常安全
+      name: HK331｜家宽｜非常安全
       network: ws
       port: "80"
-      server: 82efdbb6-t8pj40-t9eu8q-tlhh.hkt.gotochinatown.net
+      server: 4dbbf66c-t70f40-tifnix-1ro8s.hkt.gotochinatown.net
       tls: false
       type: vmess
-      uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+      uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
       ws-opts:
         headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-    - alterId: 2
-      cipher: auto
-      name: HK327｜家宽｜非常安全
-      network: ws
-      port: "80"
-      server: 1fd3ae26-t8nog0-tpftcp-13x18.hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
+            Host: 4dbbf66c-t70f40-tifnix-1ro8s.hkt.gotochinatown.net
         path: /
