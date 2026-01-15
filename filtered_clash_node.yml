@@ -1,5 +1,33 @@
 proxy-providers: {}
 proxies:
+    - name: US_speednode_0035
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: US_speednode_0039
+      network: ws
+      port: 443
+      server: 104.17.25.173
+      servername: l.ayovo.netlib.re
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
     - name: US_speednode_0037
       network: ws
       port: 443
@@ -14,10 +42,27 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: US_speednode_0036
+    - alpn:
+        - http/1.1
+      client-fingerprint: random
+      name: US_speednode_0033
+      network: ws
+      port: 8443
+      server: 172.64.145.38
+      servername: vyznthvt7f5fr.zjde5.de5.net
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9e685fe3-e0f9-482d-939c-200a3f89b363
+      ws-opts:
+        headers:
+            Host: vyznthvt7f5fr.zjde5.de5.net
+        path: /?ed=2560
+    - name: US_speednode_0040
       network: ws
       port: 443
-      server: cloudflare.182682.xyz
+      server: 104.21.227.134
       servername: l.ayovo.netlib.re
       skip-cert-verify: false
       tls: true
@@ -27,7 +72,21 @@ proxies:
       ws-opts:
         headers:
             Host: l.ayovo.netlib.re
-        path: /x-aniu/?ed=2560
+        path: /?ed=2560
+    - name: US_speednode_0032
+      network: ws
+      port: 443
+      server: 104.16.250.22
+      servername: l.ayovo.netlib.re
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
     - client-fingerprint: firefox
       name: GB_speednode_0015
       port: 587
@@ -55,30 +114,10 @@ proxies:
       type: vless
       udp: true
       uuid: 00e3aa57-aad0-4b7c-90ef-8fbdc2175ddb
-    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36300
-      server: 206.71.158.37
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: ✅ @ConfigV2RayNG (نت ملی)
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: gavazn.lnmarketplace.net
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
-    - name: US_speednode_0040
+    - name: US_speednode_0036
       network: ws
       port: 443
-      server: 104.21.227.134
+      server: cloudflare.182682.xyz
       servername: l.ayovo.netlib.re
       skip-cert-verify: false
       tls: true
@@ -88,7 +127,7 @@ proxies:
       ws-opts:
         headers:
             Host: l.ayovo.netlib.re
-        path: /?ed=2560
+        path: /x-aniu/?ed=2560
     - name: DE_speednode_0008
       network: ws
       port: 2087
@@ -103,40 +142,6 @@ proxies:
         headers:
             Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
         path: /?ed=2048
-    - name: 'ConfigV2RayNG #3'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: US_speednode_0035
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F4DF22@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: 206.71.158.23
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
     - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
@@ -144,26 +149,6 @@ proxies:
       port: 35200
       server: 206.71.158.37
       skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: 'ConfigV2RayNG #2'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36300
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: 'ConfigV2RayNG #1'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35200
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
@@ -187,44 +172,6 @@ proxies:
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
-    - name: '@ConfigV2RayNG'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: US_speednode_0032
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: US_speednode_0039
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
     - name: US_speednode_0041
       network: ws
       password: k52nemqqdx9e
@@ -238,6 +185,84 @@ proxies:
         headers:
             Host: 8end0fr.zjde5.de5.net
         path: /?ed=2560
+    - name: '@ConfigV2RayNG'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36400
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: ✅ @ConfigV2RayNG (نت ملی)
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: gavazn.lnmarketplace.net
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
+    - name: "\U0001F4DF22@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: 206.71.158.23
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
+    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36300
+      server: 206.71.158.37
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 4843e94d205f3893f588255a591abe94
+      port: 1933
+      server: 160.16.72.205
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: 'ConfigV2RayNG #3'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36400
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: 'ConfigV2RayNG #2'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36300
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: 'ConfigV2RayNG #1'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35200
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -256,28 +281,3 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: 新加坡2|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 544
-      server: 160.16.132.38
-      skip-cert-verify: true
-      sni: www.nintendogames.net
-      type: trojan
-    - alpn:
-        - http/1.1
-      client-fingerprint: random
-      name: US_speednode_0033
-      network: ws
-      port: 8443
-      server: 172.64.145.38
-      servername: vyznthvt7f5fr.zjde5.de5.net
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9e685fe3-e0f9-482d-939c-200a3f89b363
-      ws-opts:
-        headers:
-            Host: vyznthvt7f5fr.zjde5.de5.net
-        path: /?ed=2560
