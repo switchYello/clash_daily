@@ -14,6 +14,32 @@ proxies:
         headers:
             Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
         path: /?ed=2048
+    - name: "\U0001F4DF22@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: 206.71.158.23
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
+    - name: ✅ @ConfigV2RayNG (نت ملی)
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: gavazn.lnmarketplace.net
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
+    - name: DE144｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.7
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
     - name: GB_speednode_0009
       network: ws
       port: 8880
@@ -28,26 +54,6 @@ proxies:
         headers:
             Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
         path: /?ed=8880
-    - name: ✅ @ConfigV2RayNG (نت ملی)
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: gavazn.lnmarketplace.net
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
-    - name: "\U0001F4DF22@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: 206.71.158.23
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
     - name: 日本2|@ripaojiedian
       network: tcp
       password: 4843e94d205f3893f588255a591abe94
@@ -56,40 +62,13 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - alpn:
-        - h2
-        - http/1.1
-      name: RU10｜商宽｜非常安全
-      password: yUHNMwWvenoHBaN5CtqKPwt1CTzXgW
-      port: 443
-      server: ru2.nnvpn.io
-      skip-cert-verify: true
-      sni: ru2.nnvpn.io
-      type: trojan
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 4006
-      server: 160.16.87.174
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: DE144｜原生/疑似家宽｜高风险 (黑名单)
+    - name: RU_speednode_0020
       port: 1080
-      server: 193.233.254.7
+      server: 193.233.254.8
       tls: false
       type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-    - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: '&O#28YB5qK!5t#U'
-      password: freehomesvpnchannel3
-      port: 46914
-      server: channel1.saghetalaie.homes
-      skip-cert-verify: true
-      sni: nalog.ru
-      tls: false
-      type: hysteria2
+      udp: true
+      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
     - client-fingerprint: firefox
       name: GB_speednode_0012
       port: 587
@@ -109,11 +88,27 @@ proxies:
       tls: false
       type: socks5
       username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
-    - name: "telegram » mainv\U0001D7EEray¹"
-      password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
+    - name: 新加坡|@ripaojiedian
+      network: tcp
+      password: 4843e94d205f3893f588255a591abe94
+      port: 3076
+      server: 160.16.87.174
       skip-cert-verify: false
-      sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
+      sni: www.nintendogames.net
+      type: trojan
+    - cipher: aes-256-gcm
+      name: 新加坡4|@ripaojiedian
+      password: d2umVadPT1m/FwIn
+      port: 8388
+      server: 194.87.10.161
+      type: ss
+    - alpn:
+        - h2
+        - http/1.1
+      name: RU10｜商宽｜非常安全
+      password: yUHNMwWvenoHBaN5CtqKPwt1CTzXgW
+      port: 443
+      server: ru2.nnvpn.io
+      skip-cert-verify: true
+      sni: ru2.nnvpn.io
+      type: trojan
