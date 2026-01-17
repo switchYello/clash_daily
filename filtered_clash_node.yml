@@ -1,30 +1,5 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      name: DE151｜机房｜低风险
-      network: tcp
-      port: "180"
-      server: 82.198.246.97
-      tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - name: CA_speednode_0001
-      password: 30077070-596e-48ea-9400-14c8ed07bd97
-      port: 443
-      server: tuntro006.instconn.com
-      skip-cert-verify: true
-      sni: torontorm1.686911.xyz
-      type: trojan
-      udp: true
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 4006
-      server: 160.16.87.174
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
     - name: "\U0001F4DF22@ConfigV2RayNG"
       obfs: salamander
       obfs-password: Telegram-->@Ln2Ray
@@ -45,6 +20,24 @@ proxies:
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 4843e94d205f3893f588255a591abe94
+      port: 1933
+      server: 160.16.87.174
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - alpn:
+        - h2
+        - http/1.1
+      name: RU10｜商宽｜非常安全
+      password: yUHNMwWvenoHBaN5CtqKPwt1CTzXgW
+      port: 443
+      server: ru2.nnvpn.io
+      skip-cert-verify: true
+      sni: ru2.nnvpn.io
+      type: trojan
     - name: DE144｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.7
@@ -67,16 +60,6 @@ proxies:
       tls: false
       type: socks5
       username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
-    - name: 'ConfigV2RayNG #3'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
     - name: DE99｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.8
@@ -93,37 +76,3 @@ proxies:
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
-    - name: "\U0001F45182@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35000
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35200
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: IR_speednode_0018
-      network: ws
-      port: 80
-      server: oon.visaups.ir
-      servername: oon.visaups.ir
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 087d8602-503b-4091-9f05-44c20792083c
-      ws-opts:
-        headers:
-            Host: oon.visaups.ir
-        path: /
