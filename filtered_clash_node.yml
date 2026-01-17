@@ -1,38 +1,33 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      name: DE151｜机房｜低风险
-      network: tcp
-      port: "180"
-      server: 82.198.246.97
-      tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - name: CA_speednode_0001
-      password: 30077070-596e-48ea-9400-14c8ed07bd97
-      port: 443
-      server: tuntro006.instconn.com
-      skip-cert-verify: true
-      sni: torontorm1.686911.xyz
-      type: trojan
+    - name: DE_speednode_0005
+      network: ws
+      port: 2087
+      server: api.dark-coffe.com
+      servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+      skip-cert-verify: false
+      tls: true
+      type: vless
       udp: true
-    - name: 日本2|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 1933
-      server: 160.16.87.174
+      uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+      ws-opts:
+        headers:
+            Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+        path: /?ed=2048
+    - name: GB_speednode_0009
+      network: ws
+      port: 8880
+      server: 25.25.25.0
+      servername: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
       skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 4006
-      server: 160.16.87.174
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
+      tls: false
+      type: vless
+      udp: true
+      uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
+      ws-opts:
+        headers:
+            Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+        path: /?ed=8880
     - name: ✅ @ConfigV2RayNG (نت ملی)
       obfs: salamander
       obfs-password: Telegram-->@Ln2Ray
@@ -53,14 +48,14 @@ proxies:
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
-    - name: "telegram » mainv\U0001D7EEray¹"
-      password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 4843e94d205f3893f588255a591abe94
+      port: 1933
+      server: 160.16.87.174
       skip-cert-verify: false
-      sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
-      tls: false
-      type: hysteria2
+      sni: www.nintendogames.net
+      type: trojan
     - alpn:
         - h2
         - http/1.1
@@ -71,8 +66,32 @@ proxies:
       skip-cert-verify: true
       sni: ru2.nnvpn.io
       type: trojan
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 4843e94d205f3893f588255a591abe94
+      port: 4006
+      server: 160.16.87.174
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: DE144｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.7
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
+    - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: '&O#28YB5qK!5t#U'
+      password: freehomesvpnchannel3
+      port: 46914
+      server: channel1.saghetalaie.homes
+      skip-cert-verify: true
+      sni: nalog.ru
+      tls: false
+      type: hysteria2
     - client-fingerprint: firefox
-      name: GB_speednode_0010
+      name: GB_speednode_0012
       port: 587
       reality-opts:
         public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
@@ -84,25 +103,17 @@ proxies:
       type: vless
       udp: true
       uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-    - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: '&O#28YB5qK!5t#U'
-      password: freehomesvpnchannel3
-      port: 46914
-      server: channel1.saghetalaie.homes
-      skip-cert-verify: true
-      sni: nalog.ru
-      tls: false
-      type: hysteria2
-    - name: DE99｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.8
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
     - name: DE101｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.9
       tls: false
       type: socks5
       username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
+    - name: "telegram » mainv\U0001D7EEray¹"
+      password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+      port: 443
+      server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
+      skip-cert-verify: false
+      sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
+      tls: false
+      type: hysteria2
