@@ -1,15 +1,38 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F4DF22@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: 206.71.158.23
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
+    - alterId: 0
+      cipher: auto
+      name: DE151｜机房｜低风险
+      network: tcp
+      port: "180"
+      server: 82.198.246.97
       tls: false
-      type: hysteria2
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    - name: CA_speednode_0001
+      password: 30077070-596e-48ea-9400-14c8ed07bd97
+      port: 443
+      server: tuntro006.instconn.com
+      skip-cert-verify: true
+      sni: torontorm1.686911.xyz
+      type: trojan
+      udp: true
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 4843e94d205f3893f588255a591abe94
+      port: 1933
+      server: 160.16.87.174
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 4843e94d205f3893f588255a591abe94
+      port: 4006
+      server: 160.16.87.174
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
     - name: ✅ @ConfigV2RayNG (نت ملی)
       obfs: salamander
       obfs-password: Telegram-->@Ln2Ray
@@ -20,14 +43,24 @@ proxies:
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
-    - name: 日本2|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 1933
-      server: 160.16.87.174
+    - name: "\U0001F4DF22@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: 206.71.158.23
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
+    - name: "telegram » mainv\U0001D7EEray¹"
+      password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+      port: 443
+      server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
       skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
+      sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
+      tls: false
+      type: hysteria2
     - alpn:
         - h2
         - http/1.1
@@ -38,12 +71,19 @@ proxies:
       skip-cert-verify: true
       sni: ru2.nnvpn.io
       type: trojan
-    - name: DE144｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.7
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
+    - client-fingerprint: firefox
+      name: GB_speednode_0010
+      port: 587
+      reality-opts:
+        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+        short-id: 916e8258c4a01b02
+      server: turkiye.torprospeed.ir
+      servername: excoino.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -54,25 +94,15 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - name: DE101｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.9
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
     - name: DE99｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.8
       tls: false
       type: socks5
       username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36300
-      server: 206.71.158.37
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
+    - name: DE101｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.9
       tls: false
-      type: hysteria2
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
