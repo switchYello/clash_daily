@@ -1,23 +1,5 @@
 proxy-providers: {}
 proxies:
-    - name: CA_speednode_0001
-      password: 30077070-596e-48ea-9400-14c8ed07bd97
-      port: 443
-      server: tuntro006.instconn.com
-      skip-cert-verify: true
-      sni: torontorm1.686911.xyz
-      type: trojan
-      udp: true
-    - name: "\U0001F4DF22@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: 206.71.158.23
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
     - name: DE_speednode_0005
       network: ws
       port: 2087
@@ -32,6 +14,16 @@ proxies:
         headers:
             Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
         path: /?ed=2048
+    - name: "\U0001F4DF22@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: 206.71.158.23
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
     - name: ✅ @ConfigV2RayNG (نت ملی)
       obfs: salamander
       obfs-password: Telegram-->@Ln2Ray
@@ -66,27 +58,6 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 4006
-      server: 153.121.51.29
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - client-fingerprint: firefox
-      name: GB_speednode_0012
-      port: 587
-      reality-opts:
-        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-        short-id: 916e8258c4a01b02
-      server: turkiye.torprospeed.ir
-      servername: excoino.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
     - name: RU_speednode_0020
       port: 1080
       server: 193.233.254.8
@@ -100,13 +71,32 @@ proxies:
       tls: false
       type: socks5
       username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
-    - name: 'ConfigV2RayNG #3'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: yapc-1.adamhayward.co.uk
+    - client-fingerprint: firefox
+      name: GB_speednode_0012
+      port: 587
+      reality-opts:
+        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+        short-id: 916e8258c4a01b02
+      server: turkiye.torprospeed.ir
+      servername: excoino.com
       skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
+      tls: true
+      type: vless
+      udp: true
+      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 4843e94d205f3893f588255a591abe94
+      port: 3423
+      server: 160.16.70.180
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: CA_speednode_0001
+      password: 30077070-596e-48ea-9400-14c8ed07bd97
+      port: 443
+      server: tuntro006.instconn.com
+      skip-cert-verify: true
+      sni: torontorm1.686911.xyz
+      type: trojan
+      udp: true
