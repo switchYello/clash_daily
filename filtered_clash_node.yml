@@ -10,30 +10,12 @@ proxies:
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
-    - name: "\U0001F4DF22@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: 206.71.158.23
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
     - name: DE35｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.7
       tls: false
       type: socks5
       username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 4006
-      server: 160.16.117.182
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -44,31 +26,23 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - name: DE7｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.8
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
     - name: DE9｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.9
       tls: false
       type: socks5
       username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
-    - name: KR_speednode_0012
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - name: "\U0001F1ED\U0001F1F0 HK"
-      password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-      port: 443
-      server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-      sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 4843e94d205f3893f588255a591abe94
+      port: 1933
+      server: 160.16.57.238
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: DE7｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.8
       tls: false
-      type: hysteria2
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
