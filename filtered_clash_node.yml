@@ -1,54 +1,5 @@
 proxy-providers: {}
 proxies:
-    - name: 日本2|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 1933
-      server: 160.16.57.238
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: 新加坡2|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 3901
-      server: 160.16.124.55
-      skip-cert-verify: true
-      sni: www.nintendogames.net
-      type: trojan
-    - name: KR_speednode_0012
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - name: 新加坡|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 544
-      server: 153.121.65.107
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: KR1｜家宽｜高风险 (黑名单)
-      port: 1090
-      server: 121.169.46.116
-      tls: false
-      type: socks5
-      username: Og%3D%3D
-    - name: "\U0001F4DF22@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: 206.71.158.23
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
     - name: ✅ @ConfigV2RayNG (نت ملی)
       obfs: salamander
       obfs-password: Telegram-->@Ln2Ray
@@ -59,25 +10,22 @@ proxies:
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
+    - name: "\U0001F4DF22@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: 206.71.158.23
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
     - name: DE35｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.7
       tls: false
       type: socks5
       username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
-    - client-fingerprint: firefox
-      name: GB_speednode_0010
-      port: 587
-      reality-opts:
-        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-        short-id: 916e8258c4a01b02
-      server: turkiye.torprospeed.ir
-      servername: excoino.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -88,3 +36,61 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 4843e94d205f3893f588255a591abe94
+      port: 4006
+      server: 160.16.117.182
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 4843e94d205f3893f588255a591abe94
+      port: 1933
+      server: 160.16.57.238
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: DE9｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.9
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
+    - alterId: 0
+      cipher: auto
+      name: DE74｜机房｜低风险
+      network: tcp
+      port: "180"
+      server: 82.198.246.97
+      tls: false
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    - name: DE7｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.8
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
+    - name: HK61｜家宽｜非常安全
+      password: 4843e94d205f3893f588255a591abe94
+      port: 443
+      server: 58.152.18.124
+      skip-cert-verify: true
+      sni: www.nintendogames.net
+      type: trojan
+    - client-fingerprint: random
+      flow: xtls-rprx-vision
+      name: FI_speednode_0004
+      port: 8443
+      reality-opts:
+        public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+        short-id: 58c512b4422e2517
+      server: 78.153.139.68
+      servername: images.apple.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
