@@ -1,27 +1,18 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      name: DE74｜机房｜低风险
-      network: tcp
-      port: "180"
-      server: 82.198.246.97
-      tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - name: 新加坡2|@ripaojiedian
-      network: tcp
-      password: 869e9086806483ca4744a4cb0f3d6e16
-      port: 544
-      server: 160.16.106.99
+    - name: FR_speednode_0006
+      password: telegram-id-directvpn
+      port: 22223
+      server: 51.44.124.96
       skip-cert-verify: true
-      sni: www.nintendogames.net
       type: trojan
-    - name: DE_speednode_0004
+      udp: true
+    - name: DE_speednode_0002
       password: telegram-id-privatevpns
       port: 22222
       server: 18.196.155.223
       skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
     - name: FR2｜机房｜低风险
@@ -42,23 +33,6 @@ proxies:
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
-    - name: 'ConfigV2RayNG #2'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36300
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK"
-      password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-      port: 443
-      server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-      sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-      tls: false
-      type: hysteria2
     - name: ✅ @ConfigV2RayNG (نت ملی)
       obfs: salamander
       obfs-password: Telegram-->@Ln2Ray
@@ -69,14 +43,61 @@ proxies:
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
-    - name: 'ConfigV2RayNG #1'
+    - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: '&O#28YB5qK!5t#U'
+      password: freehomesvpnchannel3
+      port: 46914
+      server: channel1.saghetalaie.homes
+      skip-cert-verify: true
+      sni: nalog.ru
+      tls: false
+      type: hysteria2
+    - name: DE_speednode_0004
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 18.196.155.223
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: DE7｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.8
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
+    - name: RU_speednode_0033
+      port: 1080
+      server: 193.233.254.9
+      tls: false
+      type: socks5
+      udp: true
+      username: Og@193.233.254.9
+    - name: ConfigV2RayNG
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36600
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
       port: 35200
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
+      server: 206.71.158.37
+      skip-cert-verify: true
       sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1ED\U0001F1F0 HK"
+      password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+      port: 443
+      server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+      sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
       tls: false
       type: hysteria2
     - name: DE35｜原生/疑似家宽｜高风险 (黑名单)
@@ -85,11 +106,11 @@ proxies:
       tls: false
       type: socks5
       username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
-    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
+    - name: "\U0001F45182@ConfigV2RayNG"
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
-      port: 35200
+      port: 35000
       server: 206.71.158.37
       skip-cert-verify: true
       sni: YAPC-1.afshin.ir
@@ -105,62 +126,21 @@ proxies:
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
-    - name: DE7｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.8
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-    - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: '&O#28YB5qK!5t#U'
-      password: freehomesvpnchannel3
-      port: 46914
-      server: channel1.saghetalaie.homes
-      skip-cert-verify: true
-      sni: nalog.ru
-      tls: false
-      type: hysteria2
-    - name: RU_speednode_0033
-      port: 1080
-      server: 193.233.254.9
-      tls: false
-      type: socks5
-      udp: true
-      username: Og@193.233.254.9
-    - name: "\U0001F45182@ConfigV2RayNG"
+    - name: 'ConfigV2RayNG #2'
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
-      port: 35000
-      server: 206.71.158.37
-      skip-cert-verify: true
+      port: 36300
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: US114｜机房｜低风险
-      network: tcp
-      port: "42507"
-      server: 23.138.148.47
-      tls: false
-      type: vmess
-      uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
-    - name: US_speednode_0038
-      port: 443
-      server: plcdn14.suio.me
-      servername: plcdn14.suio.me
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-    - name: 'ConfigV2RayNG #3'
+    - name: 'ConfigV2RayNG #1'
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
-      port: 36400
+      port: 35200
       server: yapc-1.adamhayward.co.uk
       skip-cert-verify: false
       sni: YAPC-1.afshin.ir
