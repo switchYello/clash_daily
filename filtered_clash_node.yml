@@ -7,14 +7,16 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: DE_speednode_0002
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 18.196.155.223
+    - name: ✅ @ConfigV2RayNG (نت ملی)
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: gavazn.lnmarketplace.net
       skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
     - name: FR2｜机房｜低风险
       password: a516b408-e06d-4278-9e6d-5271571ecab5
       port: 20248
@@ -33,16 +35,6 @@ proxies:
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
-    - name: ✅ @ConfigV2RayNG (نت ملی)
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: gavazn.lnmarketplace.net
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -53,46 +45,21 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - name: DE_speednode_0004
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 18.196.155.223
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - name: DE7｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.8
       tls: false
       type: socks5
       username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-    - name: RU_speednode_0033
-      port: 1080
-      server: 193.233.254.9
+    - alterId: 0
+      cipher: auto
+      name: DE74｜机房｜低风险
+      network: tcp
+      port: "180"
+      server: 82.198.246.97
       tls: false
-      type: socks5
-      udp: true
-      username: Og@193.233.254.9
-    - name: ConfigV2RayNG
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36600
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35200
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     - name: "\U0001F1ED\U0001F1F0 HK"
       password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
       port: 443
@@ -106,43 +73,12 @@ proxies:
       tls: false
       type: socks5
       username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
-    - name: "\U0001F45182@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35000
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
+    - alterId: 0
+      cipher: auto
+      name: US114｜机房｜低风险
+      network: tcp
+      port: "42507"
+      server: 23.138.148.47
       tls: false
-      type: hysteria2
-    - name: '@ConfigV2RayNG'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: 'ConfigV2RayNG #2'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36300
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: 'ConfigV2RayNG #1'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35200
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
+      type: vmess
+      uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
