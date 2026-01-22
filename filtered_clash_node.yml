@@ -1,5 +1,13 @@
 proxy-providers: {}
 proxies:
+    - name: US131｜机房｜低风险
+      password: 8d4159c9-d770-40aa-9af4-6a80360697f7
+      port: 8073
+      server: 107.148.225.121
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: false
+      type: hysteria2
     - alterId: 0
       cipher: auto
       name: DE35｜机房｜低风险
@@ -9,55 +17,27 @@ proxies:
       tls: false
       type: vmess
       uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - name: US131｜机房｜低风险
-      password: 8d4159c9-d770-40aa-9af4-6a80360697f7
-      port: 8073
-      server: 107.148.225.121
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: false
-      type: hysteria2
-    - name: HK107｜家宽｜非常安全
-      password: BxceQaOe
+    - name: US_speednode_0038
       port: 443
-      server: 58.152.25.130
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: HK164｜家宽｜非常安全
-      password: BxceQaOe
-      port: 443
-      server: 58.152.25.130
-      skip-cert-verify: true
-      sni: 58.152.25.130
-      type: trojan
-    - name: 香港3|@ripaojiedian
-      network: tcp
-      password: 869e9086806483ca4744a4cb0f3d6e16
-      port: 443
-      server: 58.152.18.124
+      server: plcdn14.suio.me
+      servername: plcdn14.suio.me
       skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0 HK"
-      password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-      port: 443
-      server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-      sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - name: SG3｜机房｜高风险 (黑名单)
-      port: 10850
-      server: 213.35.110.67
-      tls: false
-      type: socks5
-      username: Og%3D%3D
+      tls: true
+      type: vless
+      udp: true
+      uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
     - name: DE50｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.7
       tls: false
       type: socks5
       username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43Og%3D%3D
+    - name: DE51｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.8
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuODo%3D
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -68,3 +48,24 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
+    - name: HK164｜家宽｜非常安全
+      password: BxceQaOe
+      port: 443
+      server: 58.152.25.130
+      skip-cert-verify: true
+      sni: 58.152.25.130
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0 HK"
+      password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+      port: 443
+      server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+      sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+      tls: false
+      type: hysteria2
+    - name: HK130｜家宽｜非常安全
+      password: BxceQaOe
+      port: 443
+      server: 58.152.53.219
+      skip-cert-verify: true
+      sni: t.me%2525252Fripaojiedian
+      type: trojan
