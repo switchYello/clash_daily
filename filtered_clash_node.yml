@@ -1,21 +1,48 @@
 proxy-providers: {}
 proxies:
-    - name: 日本2|@ripaojiedian
+    - alterId: 0
+      cipher: auto
+      name: DE74｜机房｜低风险
       network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 1933
-      server: 160.16.57.238
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
+      port: "180"
+      server: 82.198.246.97
+      tls: false
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     - name: 新加坡2|@ripaojiedian
       network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 3901
-      server: 160.16.124.55
+      password: 869e9086806483ca4744a4cb0f3d6e16
+      port: 544
+      server: 160.16.106.99
       skip-cert-verify: true
       sni: www.nintendogames.net
       type: trojan
+    - name: KR_speednode_0012
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - name: 香港3|@ripaojiedian
+      network: tcp
+      password: 869e9086806483ca4744a4cb0f3d6e16
+      port: 443
+      server: 58.152.18.124
+      sni: www.nintendogames.net
+      type: trojan
+    - name: '@ConfigV2RayNG'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36400
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
     - name: "\U0001F4DF22@ConfigV2RayNG"
       obfs: salamander
       obfs-password: Telegram-->@Ln2Ray
@@ -26,13 +53,24 @@ proxies:
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
-    - name: HK61｜家宽｜非常安全
-      password: 4843e94d205f3893f588255a591abe94
-      port: 443
-      server: 58.152.18.124
+    - name: FR2｜机房｜低风险
+      password: a516b408-e06d-4278-9e6d-5271571ecab5
+      port: 20248
+      server: 51.75.118.149
       skip-cert-verify: true
-      sni: www.nintendogames.net
-      type: trojan
+      sni: dash.cloudflare.com
+      tls: false
+      type: hysteria2
+    - name: 'ConfigV2RayNG #2'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36300
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
     - name: ✅ @ConfigV2RayNG (نت ملی)
       obfs: salamander
       obfs-password: Telegram-->@Ln2Ray
@@ -41,24 +79,6 @@ proxies:
       server: gavazn.lnmarketplace.net
       skip-cert-verify: true
       sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
-    - name: 新加坡|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 544
-      server: 153.121.65.107
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F45182@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35000
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
     - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
@@ -71,30 +91,33 @@ proxies:
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK"
-      password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-      port: 443
-      server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-      sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - name: ConfigV2RayNG
+    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
-      port: 36600
+      port: 35200
       server: 206.71.158.37
       skip-cert-verify: true
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
-    - name: '@ConfigV2RayNG'
+    - name: "\U0001F45182@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35000
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: 'ConfigV2RayNG #3'
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
       port: 36400
-      server: 206.71.158.37
-      skip-cert-verify: true
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
@@ -105,6 +128,35 @@ proxies:
       port: 35200
       server: yapc-1.adamhayward.co.uk
       skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1ED\U0001F1F0 HK"
+      password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+      port: 443
+      server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+      sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+      tls: false
+      type: hysteria2
+    - name: DE7｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.8
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
+    - name: DE9｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.9
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
+    - name: ConfigV2RayNG
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36600
+      server: 206.71.158.37
+      skip-cert-verify: true
       sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
@@ -121,15 +173,6 @@ proxies:
       type: vless
       udp: true
       uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-    - name: KR_speednode_0012
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -140,54 +183,6 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35200
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: DE9｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.9
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
-    - name: 'ConfigV2RayNG #3'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: FR2｜机房｜低风险
-      password: a516b408-e06d-4278-9e6d-5271571ecab5
-      port: 20248
-      server: 51.75.118.149
-      skip-cert-verify: true
-      sni: dash.cloudflare.com
-      tls: false
-      type: hysteria2
-    - name: DE7｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.8
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 4843e94d205f3893f588255a591abe94
-      port: 4006
-      server: 160.16.117.182
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
     - alterId: 0
       cipher: auto
       name: US114｜机房｜低风险
@@ -197,3 +192,10 @@ proxies:
       tls: false
       type: vmess
       uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 869e9086806483ca4744a4cb0f3d6e16
+      port: 1933
+      server: 160.16.89.176
+      sni: www.nintendogames.net
+      type: trojan
