@@ -17,30 +17,19 @@ proxies:
       skip-cert-verify: true
       sni: www.nintendogames.net
       type: trojan
-    - name: KR_speednode_0012
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
+    - name: DE_speednode_0004
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 18.196.155.223
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - name: 香港3|@ripaojiedian
-      network: tcp
-      password: 869e9086806483ca4744a4cb0f3d6e16
-      port: 443
-      server: 58.152.18.124
-      sni: www.nintendogames.net
       type: trojan
-    - name: '@ConfigV2RayNG'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: 206.71.158.37
+      udp: true
+    - name: FR2｜机房｜低风险
+      password: a516b408-e06d-4278-9e6d-5271571ecab5
+      port: 20248
+      server: 51.75.118.149
       skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
+      sni: dash.cloudflare.com
       tls: false
       type: hysteria2
     - name: "\U0001F4DF22@ConfigV2RayNG"
@@ -53,79 +42,11 @@ proxies:
       sni: gavazn.55994421.xyz
       tls: false
       type: hysteria2
-    - name: FR2｜机房｜低风险
-      password: a516b408-e06d-4278-9e6d-5271571ecab5
-      port: 20248
-      server: 51.75.118.149
-      skip-cert-verify: true
-      sni: dash.cloudflare.com
-      tls: false
-      type: hysteria2
     - name: 'ConfigV2RayNG #2'
       obfs: salamander
       obfs-password: Yet-Another-Public-Config-1
       password: Yet-Another-Public-Config-1
       port: 36300
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: ✅ @ConfigV2RayNG (نت ملی)
-      obfs: salamander
-      obfs-password: Telegram-->@Ln2Ray
-      password: Telegram-->@Ln2Ray
-      port: 45000
-      server: gavazn.lnmarketplace.net
-      skip-cert-verify: true
-      sni: gavazn.55994421.xyz
-      tls: false
-      type: hysteria2
-    - name: "ConfigV2RayNG\U0001F1E8\U0001F1E6"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36300
-      server: 206.71.158.37
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35200
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: "\U0001F45182@ConfigV2RayNG"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35000
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: 'ConfigV2RayNG #3'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - name: 'ConfigV2RayNG #1'
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35200
       server: yapc-1.adamhayward.co.uk
       skip-cert-verify: false
       sni: YAPC-1.afshin.ir
@@ -138,41 +59,58 @@ proxies:
       sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
       tls: false
       type: hysteria2
+    - name: ✅ @ConfigV2RayNG (نت ملی)
+      obfs: salamander
+      obfs-password: Telegram-->@Ln2Ray
+      password: Telegram-->@Ln2Ray
+      port: 45000
+      server: gavazn.lnmarketplace.net
+      skip-cert-verify: true
+      sni: gavazn.55994421.xyz
+      tls: false
+      type: hysteria2
+    - name: 'ConfigV2RayNG #1'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35200
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: DE35｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.7
+      tls: false
+      type: socks5
+      username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
+    - name: "\U0001F1F3\U0001F1F1 ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35200
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - name: '@ConfigV2RayNG'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36400
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
     - name: DE7｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.8
       tls: false
       type: socks5
       username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-    - name: DE9｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.9
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
-    - name: ConfigV2RayNG
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36600
-      server: 206.71.158.37
-      skip-cert-verify: true
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - client-fingerprint: firefox
-      name: GB_speednode_0010
-      port: 587
-      reality-opts:
-        public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-        short-id: 916e8258c4a01b02
-      server: turkiye.torprospeed.ir
-      servername: excoino.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -181,6 +119,23 @@ proxies:
       server: channel1.saghetalaie.homes
       skip-cert-verify: true
       sni: nalog.ru
+      tls: false
+      type: hysteria2
+    - name: RU_speednode_0033
+      port: 1080
+      server: 193.233.254.9
+      tls: false
+      type: socks5
+      udp: true
+      username: Og@193.233.254.9
+    - name: "\U0001F45182@ConfigV2RayNG"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35000
+      server: 206.71.158.37
+      skip-cert-verify: true
+      sni: YAPC-1.afshin.ir
       tls: false
       type: hysteria2
     - alterId: 0
@@ -192,10 +147,22 @@ proxies:
       tls: false
       type: vmess
       uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 869e9086806483ca4744a4cb0f3d6e16
-      port: 1933
-      server: 160.16.89.176
-      sni: www.nintendogames.net
-      type: trojan
+    - name: US_speednode_0038
+      port: 443
+      server: plcdn14.suio.me
+      servername: plcdn14.suio.me
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+    - name: 'ConfigV2RayNG #3'
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36400
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
