@@ -7,34 +7,26 @@ proxies:
       skip-cert-verify: true
       tls: false
       type: hysteria2
-    - name: US_speednode_0038
-      port: 443
-      server: plcdn14.suio.me
-      servername: plcdn14.suio.me
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+    - name: US131｜机房｜低风险
+      password: 8d4159c9-d770-40aa-9af4-6a80360697f7
+      port: 8073
+      server: 107.148.225.121
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: false
+      type: hysteria2
     - name: DE50｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.7
       tls: false
       type: socks5
       username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43Og%3D%3D
-    - name: DE51｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.8
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuODo%3D
-    - name: RU_speednode_0033
+    - name: DE52｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.9
       tls: false
       type: socks5
-      udp: true
-      username: Og@193.233.254.9
+      username: T2dAMTkzLjIzMy4yNTQuOTo%3D
     - name: "\U0001F1EB\U0001F1EEh@ConfigV2RayNG"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -45,10 +37,17 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - name: IN2｜机房｜低风险
-      password: M7v%w11Se*
+    - name: DE51｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.8
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuODo%3D
+    - name: RU_speednode_0019
+      password: Pe_dQrCQ4QbnntuVrqHN3dsKhCBpqvxr
       port: 443
-      server: hyfuuf6.wsone.icu
-      skip-cert-verify: true
-      sni: hyfuuf6.wsone.icu
+      server: fi2.nnvpn.io
+      skip-cert-verify: false
+      sni: fi2.nnvpn.io
       type: trojan
+      udp: true
