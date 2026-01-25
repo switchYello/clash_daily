@@ -1,6 +1,33 @@
 proxy-providers: {}
 proxies:
     - client-fingerprint: firefox
+      name: US_speednode_0162
+      port: 10001
+      reality-opts:
+        public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
+        short-id: 1a24af87
+      server: 172.234.130.82
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
+    - name: US_speednode_0083
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: firefox
       flow: xtls-rprx-vision
       name: NL_speednode_0041
       port: 443
@@ -14,10 +41,10 @@ proxies:
       type: vless
       udp: true
       uuid: 39a5f471-6ac7-4279-98ef-a3ad0601c816
-    - name: US_speednode_0087
+    - name: US_speednode_0080
       network: ws
       port: 443
-      server: 162.159.44.142
+      server: 104.21.227.134
       servername: l.ayovo.netlib.re
       skip-cert-verify: false
       tls: true
@@ -28,6 +55,37 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
+    - name: 日本2|@ripaojiedian
+      network: tcp
+      password: 869e9086806483ca4744a4cb0f3d6e16
+      port: 3423
+      server: 160.16.132.38
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - alterId: 0
+      cipher: auto
+      name: DE36｜机房｜低风险
+      network: tcp
+      port: "180"
+      server: 82.198.246.97
+      tls: false
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    - name: 日本3|@ripaojiedian
+      network: tcp
+      password: 869e9086806483ca4744a4cb0f3d6e16
+      port: 4006
+      server: 160.16.132.38
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: DE25｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.9
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuOTo%3D
     - http-opts:
         headers:
             Host:
@@ -45,38 +103,18 @@ proxies:
       type: vless
       udp: true
       uuid: 85571fb3-6d15-49b0-e1d6-cf8b6dbd623e
-    - name: DE25｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.9
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuOTo%3D
-    - name: DE24｜原生/疑似家宽｜高风险 (黑名单)
-      port: 1080
-      server: 193.233.254.8
-      tls: false
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuODo%3D
     - name: DE43｜原生/疑似家宽｜高风险 (黑名单)
       port: 1080
       server: 193.233.254.7
       tls: false
       type: socks5
       username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
-    - name: US_speednode_0088
-      network: ws
-      port: 443
-      server: 162.159.16.63
-      servername: l.ayovo.netlib.re
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
+    - name: DE24｜原生/疑似家宽｜高风险 (黑名单)
+      port: 1080
+      server: 193.233.254.8
+      tls: false
+      type: socks5
+      username: T2dAMTkzLjIzMy4yNTQuODo%3D
     - name: "telegram » mainv\U0001D7EEray²"
       obfs: salamander
       obfs-password: '&O#28YB5qK!5t#U'
@@ -87,10 +125,10 @@ proxies:
       sni: nalog.ru
       tls: false
       type: hysteria2
-    - name: US_speednode_0081
+    - name: US_speednode_0082
       network: ws
       port: 443
-      server: cloudflare.182682.xyz
+      server: 104.16.250.22
       servername: l.ayovo.netlib.re
       skip-cert-verify: false
       tls: true
@@ -101,78 +139,6 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /x-aniu/?ed=2560
-    - name: 日本2|@ripaojiedian
-      network: tcp
-      password: 869e9086806483ca4744a4cb0f3d6e16
-      port: 3423
-      server: 160.16.132.38
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: 日本3|@ripaojiedian
-      network: tcp
-      password: 869e9086806483ca4744a4cb0f3d6e16
-      port: 4006
-      server: 160.16.132.38
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: US_speednode_0079
-      network: ws
-      port: 443
-      server: 104.18.185.26
-      servername: l.ayovo.netlib.re
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: US_speednode_0085
-      network: ws
-      port: 443
-      server: 162.159.45.232
-      servername: l.ayovo.netlib.re
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - alterId: 2
-      cipher: auto
-      name: HK197｜家宽｜非常安全
-      network: ws
-      port: "80"
-      server: hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-      ws-opts:
-        headers:
-            Host: hkt.gotochinatown.net
-        path: /
-    - name: HK144｜家宽｜非常安全
-      password: BxceQaOe
-      port: 443
-      server: 219.76.135.98
-      skip-cert-verify: true
-      sni: 219.76.135.98
-      type: trojan
-    - name: 美国|@ripaojiedian
-      network: tcp
-      password: 869e9086806483ca4744a4cb0f3d6e16
-      port: 5076
-      server: 160.16.132.38
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
     - name: US_speednode_0123
       network: ws
       port: 443
@@ -187,10 +153,10 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /x-aniu/?ed=2560
-    - name: US_speednode_0089
+    - name: US_speednode_0085
       network: ws
       port: 443
-      server: 162.159.44.142
+      server: 162.159.45.232
       servername: l.ayovo.netlib.re
       skip-cert-verify: false
       tls: true
@@ -200,11 +166,32 @@ proxies:
       ws-opts:
         headers:
             Host: l.ayovo.netlib.re
-        path: /x-aniu/?ed=2560
-    - name: US_speednode_0076
+        path: /?ed=2560
+    - name: 美国|@ripaojiedian
+      network: tcp
+      password: 869e9086806483ca4744a4cb0f3d6e16
+      port: 5076
+      server: 160.16.132.38
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - alterId: 2
+      cipher: auto
+      name: HK196｜家宽｜非常安全
+      network: ws
+      port: "80"
+      server: 65f41879-t70f40-t7n4ch-1rfon.hkt.gotochinatown.net
+      tls: false
+      type: vmess
+      uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - name: US_speednode_0087
       network: ws
       port: 443
-      server: 104.17.25.173
+      server: 162.159.44.142
       servername: l.ayovo.netlib.re
       skip-cert-verify: false
       tls: true
